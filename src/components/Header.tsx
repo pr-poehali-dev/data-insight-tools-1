@@ -6,9 +6,7 @@ export function Header() {
     <header className="flex items-center justify-between px-8 py-4">
       <div className="flex items-center gap-2">
         <ФинПотокLogo />
-        <span className="text-lg font-semibold text-white">
-          ФинПоток<sup className="text-xs">™</sup>
-        </span>
+        <span className="text-lg font-semibold text-white">Magnitka</span>
       </div>
 
       <nav className="hidden md:flex items-center gap-8">
