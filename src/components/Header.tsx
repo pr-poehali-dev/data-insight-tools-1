@@ -14,6 +14,9 @@ export function Header() {
         <Link to="/ip" className="text-sm text-gray-300 hover:text-white transition-colors">
           Оформить ИП
         </Link>
+        <Link to="/rko" className="text-sm text-gray-300 hover:text-white transition-colors">
+          РКО
+        </Link>
         <Link to="/karty" className="text-sm text-gray-300 hover:text-white transition-colors flex items-center gap-1">
           Карты <ChevronDown className="h-4 w-4" />
         </Link>
