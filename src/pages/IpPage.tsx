@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import { ArrowLeft, ArrowUpRight, FileText, Clock, Shield, Zap } from "lucide-react"
+import { ArrowLeft, ArrowUpRight, CheckCircle2, FileText, Clock, Shield, Zap } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Header } from "@/components/Header"
 
@@ -73,6 +73,22 @@ export default function IpPage() {
             <div key={offer.id} className="rounded-2xl bg-[#141414] border border-[#262626] p-6 flex flex-col hover:border-violet-500/40 transition-colors">
               <div className="mb-4 rounded-xl overflow-hidden">
                 <img src={offer.image} alt={offer.bank} className="w-full object-cover" />
+              </div>
+
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="text-lg font-semibold text-white">{offer.title}</h3>
+                <span className={`text-xs px-2.5 py-1 rounded-full font-medium flex-shrink-0 ml-2 ${offer.badgeColor}`}>{offer.badge}</span>
+              </div>
+
+              <p className="text-sm text-gray-400 mb-5">{offer.description}</p>
+
+              <div className="space-y-2 mb-6">
+                {offer.features.map((f, i) => (
+                  <div key={i} className="flex items-start gap-2">
+                    <CheckCircle2 className="h-4 w-4 text-violet-400 flex-shrink-0 mt-0.5" />
+                    <span className="text-sm text-gray-300">{f}</span>
+                  </div>
+                ))}
               </div>
 
               <div className="mt-auto">
