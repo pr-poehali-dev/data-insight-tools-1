@@ -13,6 +13,7 @@ const offers = [
     description: "Регистрация ИП за 1 день без визита в налоговую. Расчётный счёт в подарок.",
     features: ["Бесплатная регистрация", "Счёт за 0 ₽/мес первые 3 месяца", "Помощь с документами", "Электронная подпись бесплатно"],
     color: "bg-red-600",
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/6dd47453-4246-452c-984c-0d7e3632d9e8.png",
     link: "#",
   },
   {
@@ -72,15 +73,21 @@ export default function IpPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-12">
           {offers.map((offer) => (
             <div key={offer.id} className="rounded-2xl bg-[#141414] border border-[#262626] p-6 flex flex-col hover:border-violet-500/40 transition-colors">
-              <div className="flex items-center justify-between mb-4">
-                <div className="flex items-center gap-3">
-                  <div className={`h-10 w-10 rounded-xl ${offer.color} flex items-center justify-center`}>
-                    <span className="text-white text-xs font-bold">{offer.bank.slice(0, 2)}</span>
-                  </div>
-                  <span className="text-white font-semibold">{offer.bank}</span>
+              {'image' in offer && offer.image ? (
+                <div className="mb-4 rounded-xl overflow-hidden">
+                  <img src={offer.image} alt={offer.bank} className="w-full object-cover" />
                 </div>
-                <span className={`text-xs px-2.5 py-1 rounded-full font-medium ${offer.badgeColor}`}>{offer.badge}</span>
-              </div>
+              ) : (
+                <div className="flex items-center justify-between mb-4">
+                  <div className="flex items-center gap-3">
+                    <div className={`h-10 w-10 rounded-xl ${offer.color} flex items-center justify-center`}>
+                      <span className="text-white text-xs font-bold">{offer.bank.slice(0, 2)}</span>
+                    </div>
+                    <span className="text-white font-semibold">{offer.bank}</span>
+                  </div>
+                  <span className={`text-xs px-2.5 py-1 rounded-full font-medium ${offer.badgeColor}`}>{offer.badge}</span>
+                </div>
+              )}
 
               <h3 className="text-lg font-semibold text-white mb-2">{offer.title}</h3>
               <p className="text-sm text-gray-400 mb-5">{offer.description}</p>
