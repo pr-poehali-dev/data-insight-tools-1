@@ -6,126 +6,129 @@ import { Header } from "@/components/Header"
 const creditCards = [
   {
     id: 1,
-    bank: "Тинькофф",
-    type: "Кредитная",
-    name: "Платинум",
-    badge: "Хит",
-    badgeColor: "bg-amber-500/20 text-amber-400",
-    cardColor: "from-violet-700 to-violet-900",
-    cashback: "До 30% кэшбэк у партнёров",
-    limit: "Лимит до 700 000 ₽",
-    grace: "55 дней без %",
-    features: ["Беспроцентный период 55 дней", "Кэшбэк до 30% у партнёров", "Бесплатное обслуживание", "Рассрочка 0%"],
+    badge: "110 дней без %",
+    badgeColor: "bg-blue-500/20 text-blue-400",
+    title: "ВТБ — Кредитная карта",
+    description: "",
+    features: [
+      "Максимальный кредитный лимит — 1 000 000 р.",
+      "Максимальный лимит без подтверждения дохода — 300 000 р.",
+      "Льготный период до 200 дней при рефинансировании (погашение задолженности по кредитной карте в другом банке), далее — до 110 дней",
+      "Льготный период до 100 дней распространяется на покупки",
+      "Снятие наличных и переводы до 50 000 р. без комиссии в первые 30 дней, далее — 5.9% + 590 р.",
+      "Бесплатное оформление и обслуживание карты без скрытых условий",
+      "Бесплатная доставка карты курьером",
+    ],
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/4b011e6a-5cc9-4da6-b20e-a7b036dc5a96.png",
     link: "#",
   },
   {
     id: 2,
-    bank: "Альфа-Банк",
-    type: "Кредитная",
-    name: "100 дней",
-    badge: "Выгодно",
+    badge: "60 дней без %",
     badgeColor: "bg-red-500/20 text-red-400",
-    cardColor: "from-red-700 to-red-900",
-    cashback: "До 5% кэшбэк",
-    limit: "Лимит до 1 000 000 ₽",
-    grace: "100 дней без %",
-    features: ["100 дней без процентов", "Кэшбэк 5% на всё", "Лимит до 1 000 000 ₽", "Бесплатное снятие наличных"],
-    link: "#",
-  },
-  {
-    id: 3,
-    bank: "Сбербанк",
-    type: "Кредитная",
-    name: "СберКарта",
-    badge: "Популярно",
-    badgeColor: "bg-green-500/20 text-green-400",
-    cardColor: "from-green-700 to-green-900",
-    cashback: "До 10% кэшбэк Бонусами",
-    limit: "Лимит до 600 000 ₽",
-    grace: "120 дней без %",
-    features: ["120 дней без процентов", "Бонусы СберСпасибо", "Скидки в СберМегаМаркет", "Страхование покупок"],
+    title: "Альфа-Банк — Кредитная карта",
+    description: "",
+    features: [
+      "60 дней без % на покупки",
+      "Бесплатное обслуживание в первый год, далее 990 ₽ при наличии расходных операций по кредитному счёту",
+      "Кэшбэк до 100% в барабане суперкэшбэка",
+      "0 ₽ за доставку",
+      "Теперь кэшбэк за любые покупки по кредитке",
+      "Максимальный кредитный лимит до 1 000 000 рублей",
+      "Есть кредитные каникулы для клиентов с хорошей кредитной историей",
+      "Можно переводить собственные деньги с кредитной карты на дебетовую карту или счёт в Альфа-Банке без комиссии",
+    ],
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/a346f831-133e-4e70-9e86-61b12d042057.png",
     link: "#",
   },
 ]
 
 const debitCards = [
   {
+    id: 3,
+    badge: "Кэшбэк до 15%",
+    badgeColor: "bg-blue-500/20 text-blue-400",
+    title: "ВТБ — Дебетовая карта «МИР»",
+    description: "Категории кэшбэка на март месяц для новых клиентов:",
+    features: [
+      "15% на украшения и бижутерию (лимит — 1000 руб.)",
+      "8% на цветы (лимит — 1000 руб.)",
+      "5% на транспорт, спортивные товары, аптеки",
+      "3% на кафе и рестораны",
+      "2% на супермаркеты",
+      "2% на все покупки",
+    ],
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/49c00fd2-6a1b-4558-9019-e08ec2d82aff.png",
+    link: "#",
+  },
+  {
     id: 4,
-    bank: "Тинькофф",
-    type: "Дебетовая",
-    name: "Блэк",
-    badge: "Бесплатно",
-    badgeColor: "bg-violet-500/20 text-violet-400",
-    cardColor: "from-gray-700 to-gray-900",
-    cashback: "До 15% кэшбэк",
-    limit: "До 6% на остаток",
-    grace: "Бесплатное обслуживание",
-    features: ["Кэшбэк до 15% у партнёров", "До 6% на остаток", "Бесплатное обслуживание", "Переводы без комиссии"],
+    badge: "Сертификат 2000 ₽",
+    badgeColor: "bg-red-500/20 text-red-400",
+    title: "Альфа Банк — Дебетовая карта Альфа-Карта",
+    description: "Альфа-Банк дарит сертификат на 2000 рублей в Золотое Яблоко, ВБ, Гифтери или Пятёрочку.",
+    features: [
+      "Бесплатная. Всегда, без условий.",
+      "Кэшбэк до 100% в барабане суперкэшбэка и до 30% в категориях на выбор",
+      "Бесплатная доставка",
+      "До 20% годовых по накопительному Альфа-Счёту",
+      "Перевод без комиссии в другие банки по номеру телефона",
+      "Бесплатная оплата ЖКХ, Мобильной связи, Штрафов ГИБДД и других услуг в приложении",
+    ],
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/7a814e0f-705d-4cf2-9e49-76afbf700e95.png",
     link: "#",
   },
   {
     id: 5,
-    bank: "ВТБ",
-    type: "Дебетовая",
-    name: "Мультикарта",
-    badge: "Новинка",
-    badgeColor: "bg-blue-500/20 text-blue-400",
-    cardColor: "from-blue-700 to-blue-900",
-    cashback: "До 5% кэшбэк",
-    limit: "До 8.5% на остаток",
-    grace: "Бесплатное обслуживание",
-    features: ["Кэшбэк до 5% на всё", "До 8.5% на остаток", "Снятие без комиссии", "Кешбэк за ЖКХ"],
-    link: "#",
-  },
-  {
-    id: 6,
-    bank: "Газпромбанк",
-    type: "Дебетовая",
-    name: "Умная карта",
-    badge: "Выгодно",
-    badgeColor: "bg-teal-500/20 text-teal-400",
-    cardColor: "from-teal-700 to-teal-900",
-    cashback: "До 10% кэшбэк",
-    limit: "До 7% на остаток",
-    grace: "Обслуживание от 0 ₽",
-    features: ["Кэшбэк 10% в топ-категории", "До 7% на остаток", "Обслуживание от 0 ₽", "Мгновенный выпуск"],
+    badge: "3 мес. Pro бесплатно",
+    badgeColor: "bg-yellow-500/20 text-yellow-400",
+    title: "Т-Банк — Дебетовая карта Black",
+    description: "3 месяца подписки Т-Банк Pro бесплатно.",
+    features: [
+      "Кэшбэк в рублях — до 30% по спецпредложениям от партнёров",
+      "Обслуживание бесплатно (если на карте, вкладах, накопительных и брокерских счетах каждый день в сумме хранится не менее 50 000 ₽), в остальных случаях 99 руб. в месяц",
+      "Возможность выбора 4-х любимых категорий каждый месяц с повышенным кэшбэком 15%",
+      "Бесплатное снятие наличных в банкоматах Тинькофф — любую сумму до 500 000 ₽ в месяц",
+      "Переводы без комиссии в другой банк по номеру карты или номеру телефона до 20 000 ₽ в месяц, с СБП без комиссии",
+      "Мультифункциональное приложение",
+      "Круглосуточная поддержка",
+    ],
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/27be940b-1b30-45ba-b8e5-2f28c4a4d73f.png",
     link: "#",
   },
 ]
 
-function CardOffer({ offer }: { offer: typeof creditCards[0] }) {
+type Offer = {
+  id: number
+  badge: string
+  badgeColor: string
+  title: string
+  description: string
+  features: string[]
+  image: string
+  link: string
+}
+
+function CardOffer({ offer }: { offer: Offer }) {
   return (
     <div className="rounded-2xl bg-[#141414] border border-[#262626] p-6 flex flex-col hover:border-violet-500/40 transition-colors">
-      <div className="flex items-center justify-between mb-5">
-        <div className="flex items-center gap-3">
-          <div className={`h-12 w-20 rounded-lg bg-gradient-to-br ${offer.cardColor} flex items-center justify-center`}>
-            <CreditCard className="h-5 w-5 text-white opacity-80" />
-          </div>
-          <div>
-            <p className="text-xs text-gray-500">{offer.bank}</p>
-            <p className="text-sm font-semibold text-white">{offer.name}</p>
-          </div>
-        </div>
-        <span className={`text-xs px-2.5 py-1 rounded-full font-medium ${offer.badgeColor}`}>{offer.badge}</span>
+      <div className="mb-4 rounded-xl overflow-hidden">
+        <img src={offer.image} alt={offer.title} className="w-full object-cover" />
       </div>
 
-      <div className="grid grid-cols-3 gap-2 mb-5">
-        {[
-          { label: "Кэшбэк", value: offer.cashback },
-          { label: "Лимит / Остаток", value: offer.limit },
-          { label: "Льготный период", value: offer.grace },
-        ].map((item) => (
-          <div key={item.label} className="rounded-lg bg-[#1a1a1a] border border-[#262626] p-2.5 text-center">
-            <p className="text-xs text-gray-500 mb-1">{item.label}</p>
-            <p className="text-xs font-medium text-violet-400 leading-tight">{item.value}</p>
-          </div>
-        ))}
+      <div className="flex items-start justify-between gap-2 mb-3">
+        <h3 className="text-base font-semibold text-white leading-snug">{offer.title}</h3>
+        <span className={`text-xs px-2.5 py-1 rounded-full font-medium flex-shrink-0 ${offer.badgeColor}`}>{offer.badge}</span>
       </div>
 
-      <div className="space-y-2 mb-5">
+      {offer.description && (
+        <p className="text-sm text-gray-400 mb-4">{offer.description}</p>
+      )}
+
+      <div className="space-y-2 mb-6">
         {offer.features.map((f, i) => (
-          <div key={i} className="flex items-center gap-2">
-            <CheckCircle2 className="h-4 w-4 text-violet-400 flex-shrink-0" />
+          <div key={i} className="flex items-start gap-2">
+            <CheckCircle2 className="h-4 w-4 text-violet-400 flex-shrink-0 mt-0.5" />
             <span className="text-sm text-gray-300">{f}</span>
           </div>
         ))}
@@ -166,7 +169,7 @@ export default function KartyPage() {
             <Star className="h-4 w-4 text-amber-400" />
             <h2 className="text-lg font-semibold text-white">Кредитные карты</h2>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
             {creditCards.map((offer) => (
               <CardOffer key={offer.id} offer={offer} />
             ))}
