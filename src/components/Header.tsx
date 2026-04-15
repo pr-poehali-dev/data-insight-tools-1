@@ -9,7 +9,7 @@ export function Header() {
     <header className="relative flex items-center justify-between px-8 py-4">
       <div className="flex items-center gap-2">
         <ФинПотокLogo />
-        <span className="text-lg font-semibold text-white">Magnitka</span>
+        <span className="text-lg font-semibold text-white">Magnitka Prime</span>
       </div>
 
       <nav className="hidden md:flex items-center gap-8 absolute left-1/2 -translate-x-1/2">
