@@ -1,3 +1,4 @@
+import { useEffect, useRef } from "react"
 import { Link } from "react-router-dom"
 import { ArrowLeft, CheckCircle2, FileText, Shield, Clock, Users, Mail } from "lucide-react"
 import { Header } from "@/components/Header"
@@ -73,6 +74,24 @@ const faq = [
 ]
 
 export default function UsloviyaPage() {
+  const cardsRef = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    const cards = cardsRef.current?.querySelectorAll<HTMLElement>(".anim-card")
+    if (!cards) return
+    cards.forEach((card, i) => {
+      card.style.opacity = "0"
+      card.style.transform = "translateY(32px)"
+      card.style.transition = `opacity 0.5s ease ${i * 0.1}s, transform 0.5s ease ${i * 0.1}s`
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
+          card.style.opacity = "1"
+          card.style.transform = "translateY(0)"
+        })
+      })
+    })
+  }, [])
+
   return (
     <main className="min-h-screen bg-[#0a0a0a]">
       <Header />
@@ -82,7 +101,7 @@ export default function UsloviyaPage() {
           <ArrowLeft className="h-4 w-4" /> Назад на главную
         </Link>
 
-        <div className="mb-10">
+        <div className="mb-10 anim-card" style={{opacity:0}}>
           <div className="inline-flex items-center gap-2 rounded-full bg-violet-500/10 border border-violet-500/20 px-3 py-1 mb-4">
             <Shield className="h-3.5 w-3.5 text-violet-400" />
             <span className="text-xs text-violet-400 font-medium">Условия работы</span>
@@ -91,9 +110,9 @@ export default function UsloviyaPage() {
           <p className="text-gray-400 text-lg">Прозрачные условия сотрудничества, гарантии и ответы на частые вопросы</p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-12">
+        <div ref={cardsRef} className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-12">
           {sections.map(({ icon: Icon, title, items }) => (
-            <div key={title} className="rounded-2xl bg-[#141414] border border-[#262626] p-6">
+            <div key={title} className="anim-card rounded-2xl bg-[#141414] border border-[#262626] p-6" style={{opacity:0}}>
               <div className="flex items-center gap-3 mb-5">
                 <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-violet-500/10">
                   <Icon className="h-5 w-5 text-violet-400" />

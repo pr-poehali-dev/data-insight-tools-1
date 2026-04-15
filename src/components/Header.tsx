@@ -3,13 +3,13 @@ import { Link } from "react-router-dom"
 
 export function Header() {
   return (
-    <header className="flex items-center justify-between px-8 py-4">
+    <header className="relative flex items-center justify-between px-8 py-4">
       <div className="flex items-center gap-2">
         <ФинПотокLogo />
         <span className="text-lg font-semibold text-white">Magnitka</span>
       </div>
 
-      <nav className="hidden md:flex items-center gap-8">
+      <nav className="hidden md:flex items-center gap-8 absolute left-1/2 -translate-x-1/2">
         <Link to="/ip" className="text-sm text-gray-300 hover:text-white transition-colors">
           Оформить ИП
         </Link>
