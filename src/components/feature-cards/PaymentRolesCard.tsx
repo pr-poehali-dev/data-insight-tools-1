@@ -1,4 +1,5 @@
 import { CreditCard, ArrowUpRight, Star } from "lucide-react"
+import { Link } from "react-router-dom"
 import { Button } from "@/components/ui/button"
 
 const cards = [
@@ -28,9 +29,9 @@ export function PaymentRolesCard() {
       <h3 className="mb-2 text-lg font-semibold text-white">Карты с выгодными условиями</h3>
       <p className="mb-4 text-sm text-gray-400">Подберём кредитную или дебетовую карту с максимальным кэшбэком и без скрытых комиссий</p>
 
-      <a href="#" className="mb-6 inline-flex items-center text-sm text-gray-400 hover:text-white transition-colors">
+      <Link to="/karty" className="mb-6 inline-flex items-center text-sm text-gray-400 hover:text-white transition-colors">
         Все предложения <ArrowUpRight className="ml-1 h-4 w-4" />
-      </a>
+      </Link>
 
       <div className="mt-auto space-y-3 rounded-xl bg-[#1a1a1a] border border-[#262626] p-4">
         {cards.map((card, index) => (
@@ -53,8 +54,8 @@ export function PaymentRolesCard() {
           </div>
         ))}
 
-        <Button className="w-full bg-violet-600 hover:bg-violet-700 text-white mt-1">
-          Подобрать карту
+        <Button className="w-full bg-violet-600 hover:bg-violet-700 text-white mt-1" asChild>
+          <Link to="/karty">Подобрать карту</Link>
         </Button>
       </div>
     </div>

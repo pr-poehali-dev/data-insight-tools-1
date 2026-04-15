@@ -1,4 +1,5 @@
 import { ChevronDown } from "lucide-react"
+import { Link } from "react-router-dom"
 import { Button } from "@/components/ui/button"
 
 export function Header() {
@@ -10,15 +11,15 @@ export function Header() {
       </div>
 
       <nav className="hidden md:flex items-center gap-8">
-        <a href="#" className="text-sm text-gray-300 hover:text-white transition-colors">
+        <Link to="/ip" className="text-sm text-gray-300 hover:text-white transition-colors">
           Оформить ИП
-        </a>
-        <a href="#" className="text-sm text-gray-300 hover:text-white transition-colors flex items-center gap-1">
+        </Link>
+        <Link to="/karty" className="text-sm text-gray-300 hover:text-white transition-colors flex items-center gap-1">
           Карты <ChevronDown className="h-4 w-4" />
-        </a>
-        <a href="#" className="text-sm text-gray-300 hover:text-white transition-colors">
+        </Link>
+        <Link to="/usloviya" className="text-sm text-gray-300 hover:text-white transition-colors">
           Условия
-        </a>
+        </Link>
         <a href="#" className="text-sm text-gray-300 hover:text-white transition-colors">
           Тарифы
         </a>
