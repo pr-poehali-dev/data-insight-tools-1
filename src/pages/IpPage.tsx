@@ -6,13 +6,13 @@ import { Header } from "@/components/Header"
 const offers = [
   {
     id: 1,
-    bank: "Тинькофф",
+    bank: "Альфа-Банк",
     badge: "Бесплатно",
     badgeColor: "bg-violet-500/20 text-violet-400",
     title: "Открытие ИП онлайн",
     description: "Регистрация ИП за 1 день без визита в налоговую. Расчётный счёт в подарок.",
     features: ["Бесплатная регистрация", "Счёт за 0 ₽/мес первые 3 месяца", "Помощь с документами", "Электронная подпись бесплатно"],
-    color: "bg-yellow-500",
+    color: "bg-red-600",
     link: "#",
   },
   {
