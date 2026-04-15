@@ -29,29 +29,25 @@ const banks = [
 export function PaymentRolesCard() {
   return (
     <div className="rounded-2xl bg-[#141414] border border-[#262626] p-6 flex flex-col">
-      <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-xl bg-[#1f1f1f] border border-[#2a2a2a]">
-        <CreditCard className="h-5 w-5 text-gray-400" />
+      <div className="mb-6 flex items-center gap-3">
+        <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-[#1f1f1f] border border-[#2a2a2a]">
+          <CreditCard className="h-5 w-5 text-gray-400" />
+        </div>
+        <div className="flex items-center gap-0.5">
+          {banks.map((b, i) => (
+            <div key={i} className="flex items-center">
+              <div title={b.title} className={`h-7 w-7 rounded-full ${b.bg} flex items-center justify-center border-2 border-[#141414] -ml-1 first:ml-0`}>
+                <span className={`text-[9px] font-bold ${b.bg === "bg-yellow-400" ? "text-black" : "text-white"}`}>{b.label}</span>
+              </div>
+              {i < banks.length - 1 && <span className="text-gray-600 text-xs mx-0.5">+</span>}
+            </div>
+          ))}
+          <span className="ml-2 text-xs text-gray-500">и другие банки</span>
+        </div>
       </div>
 
       <h3 className="mb-2 text-lg font-semibold text-white">Карты с выгодными условиями</h3>
       <p className="mb-4 text-sm text-gray-400">Подберём кредитную или дебетовую карту с максимальным кэшбэком и без скрытых комиссий</p>
-
-      <div className="flex items-center gap-1 mb-4">
-        {banks.map((b, i) => (
-          <div key={i} className="flex items-center">
-            <div
-              title={b.title}
-              className={`h-7 w-7 rounded-full ${b.bg} flex items-center justify-center border-2 border-[#141414] -ml-1 first:ml-0`}
-            >
-              <span className={`text-[9px] font-bold ${b.bg === "bg-yellow-400" ? "text-black" : "text-white"}`}>{b.label}</span>
-            </div>
-            {i < banks.length - 1 && (
-              <span className="text-gray-600 text-xs mx-0.5">+</span>
-            )}
-          </div>
-        ))}
-        <span className="ml-2 text-xs text-gray-500">и другие банки</span>
-      </div>
 
       <Link to="/karty" className="mb-6 inline-flex items-center text-sm text-gray-400 hover:text-white transition-colors">
         Все предложения <ArrowUpRight className="ml-1 h-4 w-4" />
