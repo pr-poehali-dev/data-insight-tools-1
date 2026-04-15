@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import { ArrowLeft, CheckCircle2, FileText, Shield, Clock, Users, Phone, Mail } from "lucide-react"
+import { ArrowLeft, CheckCircle2, FileText, Shield, Clock, Users, Mail } from "lucide-react"
 import { Header } from "@/components/Header"
 
 const sections = [
@@ -130,20 +130,11 @@ export default function UsloviyaPage() {
           <div className="flex flex-col sm:flex-row gap-4">
             <div className="flex items-center gap-3 rounded-xl bg-[#1a1a1a] border border-[#262626] px-4 py-3">
               <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-violet-500/10">
-                <Phone className="h-4 w-4 text-violet-400" />
-              </div>
-              <div>
-                <p className="text-xs text-gray-500">Телефон</p>
-                <p className="text-sm font-medium text-white">+7 (800) 000-00-00</p>
-              </div>
-            </div>
-            <div className="flex items-center gap-3 rounded-xl bg-[#1a1a1a] border border-[#262626] px-4 py-3">
-              <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-violet-500/10">
                 <Mail className="h-4 w-4 text-violet-400" />
               </div>
               <div>
                 <p className="text-xs text-gray-500">Email</p>
-                <p className="text-sm font-medium text-white">info@magnitka.ru</p>
+                <p className="text-sm font-medium text-white">ymiiva555@gmail.com</p>
               </div>
             </div>
           </div>

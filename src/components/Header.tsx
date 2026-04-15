@@ -23,12 +23,6 @@ export function Header() {
         <Link to="/usloviya" className="text-sm text-gray-300 hover:text-white transition-colors">
           Условия
         </Link>
-        <a href="#" className="text-sm text-gray-300 hover:text-white transition-colors">
-          Тарифы
-        </a>
-        <a href="#" className="text-sm text-gray-300 hover:text-white transition-colors">
-          Контакты
-        </a>
       </nav>
 
       <Button
