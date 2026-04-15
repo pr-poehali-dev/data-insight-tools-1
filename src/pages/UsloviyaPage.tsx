@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react"
 import { Link } from "react-router-dom"
-import { ArrowLeft, CheckCircle2, FileText, Shield, Clock, Users, Mail } from "lucide-react"
+import { ArrowLeft, CheckCircle2, FileText, Shield, Clock, Users, Mail, Zap } from "lucide-react"
 import { Header } from "@/components/Header"
 
 const sections = [
@@ -100,6 +100,11 @@ export default function UsloviyaPage() {
         <Link to="/" className="inline-flex items-center gap-2 text-sm text-gray-400 hover:text-white transition-colors mb-8">
           <ArrowLeft className="h-4 w-4" /> Назад на главную
         </Link>
+
+        <div className="flex items-center gap-2 mb-6">
+          <Zap className="h-4 w-4 text-yellow-400 fill-yellow-400" />
+          <span className="text-white font-semibold text-lg">Лучшие условия для оформления</span>
+        </div>
 
         <div className="mb-10 anim-card" style={{opacity:0}}>
           <div className="inline-flex items-center gap-2 rounded-full bg-violet-500/10 border border-violet-500/20 px-3 py-1 mb-4">

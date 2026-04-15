@@ -15,7 +15,7 @@ const creditCards = [
       "Беспроцентный период: до 55 дней",
       "120 дней без процентов предоставляется только при переводе баланса с другой кредитки, то есть, когда клиент переходит в Банк из другого Банка",
     ],
-    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/34f3d220-cb04-4c36-b84b-8b1f7919f73d.png",
+    image: "https://cdn.poehali.dev/files/433a81e2-1ea6-4fa6-be3c-91681c64e8cc.jpg",
     link: "#",
   },
   {
@@ -31,7 +31,7 @@ const creditCards = [
       "Для оформления нужен только паспорт",
       "Кэшбэк до 30% за покупки в витрине партнёров",
     ],
-    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/60284463-d889-42d7-ac36-bc064e97c16f.png",
+    image: "https://cdn.poehali.dev/files/bdc4741a-97ed-46bf-a839-973e9221cc3a.jpg",
     link: "#",
   },
   {
@@ -49,7 +49,7 @@ const creditCards = [
       "Бесплатное оформление и обслуживание карты без скрытых условий",
       "Бесплатная доставка карты курьером",
     ],
-    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/4b011e6a-5cc9-4da6-b20e-a7b036dc5a96.png",
+    image: "https://cdn.poehali.dev/files/9218d324-8d07-4ed7-9da3-db39b97bc6d2.png",
     link: "#",
   },
   {
@@ -68,7 +68,7 @@ const creditCards = [
       "Есть кредитные каникулы для клиентов с хорошей кредитной историей",
       "Можно переводить собственные деньги с кредитной карты на дебетовую карту или счёт в Альфа-Банке без комиссии",
     ],
-    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/a346f831-133e-4e70-9e86-61b12d042057.png",
+    image: "https://cdn.poehali.dev/files/9bbb75a4-8e1d-4cf8-96da-27b16164222a.png",
     link: "#",
   },
 ]
