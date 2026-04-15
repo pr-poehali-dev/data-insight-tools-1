@@ -9,6 +9,12 @@ const steps = [
   { label: "Открытие расчётного счёта", done: false },
 ]
 
+const banks = [
+  { label: "А", bg: "bg-red-600", title: "Альфа-Банк" },
+  { label: "ВТБ", bg: "bg-blue-600", title: "ВТБ" },
+  { label: "Т", bg: "bg-yellow-400", title: "Тинькофф" },
+]
+
 export function LinkAccountsCard() {
   return (
     <div className="rounded-2xl bg-[#141414] border border-[#262626] p-6 flex flex-col">
@@ -18,6 +24,23 @@ export function LinkAccountsCard() {
 
       <h3 className="mb-2 text-lg font-semibold text-white">Оформление ИП за 1 день</h3>
       <p className="mb-4 text-sm text-gray-400">Регистрируем ИП без визита в налоговую — полностью онлайн и бесплатно</p>
+
+      <div className="flex items-center gap-1 mb-4">
+        {banks.map((b, i) => (
+          <div key={i} className="flex items-center">
+            <div
+              title={b.title}
+              className={`h-7 w-7 rounded-full ${b.bg} flex items-center justify-center border-2 border-[#141414] -ml-1 first:ml-0`}
+            >
+              <span className={`text-[9px] font-bold ${b.bg === "bg-yellow-400" ? "text-black" : "text-white"}`}>{b.label}</span>
+            </div>
+            {i < banks.length - 1 && (
+              <span className="text-gray-600 text-xs mx-0.5">+</span>
+            )}
+          </div>
+        ))}
+        <span className="ml-2 text-xs text-gray-500">и другие банки</span>
+      </div>
 
       <Link to="/ip" className="mb-6 inline-flex items-center text-sm text-gray-400 hover:text-white transition-colors">
         Подробнее <ArrowUpRight className="ml-1 h-4 w-4" />

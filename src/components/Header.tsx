@@ -1,6 +1,5 @@
 import { ChevronDown } from "lucide-react"
 import { Link } from "react-router-dom"
-import { Button } from "@/components/ui/button"
 
 export function Header() {
   return (
@@ -25,12 +24,7 @@ export function Header() {
         </Link>
       </nav>
 
-      <Button
-        variant="outline"
-        className="rounded-full border-violet-500 text-violet-400 hover:bg-violet-500/10 hover:text-violet-300 bg-transparent"
-      >
-        Получить консультацию
-      </Button>
+
     </header>
   )
 }
