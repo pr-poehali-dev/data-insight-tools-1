@@ -23,7 +23,7 @@ const offers = [
     ],
     color: "bg-red-600",
     image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/cbbb7203-3b10-4558-8ec5-1418d51b2f49.png",
-    link: "#",
+    link: "https://go.leadgid.ru/aff_c?aff_id=143535&offer_id=5827&p=10583&erid=2W5zFHq9R76",
   },
   {
     id: 2,
