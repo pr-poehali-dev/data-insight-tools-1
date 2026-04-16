@@ -9,6 +9,7 @@ import IpPage from "./pages/IpPage";
 import KartyPage from "./pages/KartyPage";
 import UsloviyaPage from "./pages/UsloviyaPage";
 import RkoPage from "./pages/RkoPage";
+import ZaimeryPage from "./pages/ZaimeryPage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -25,6 +26,7 @@ const App = () => (
           <Route path="/karty" element={<KartyPage />} />
           <Route path="/usloviya" element={<UsloviyaPage />} />
           <Route path="/rko" element={<RkoPage />} />
+          <Route path="/zaimery" element={<ZaimeryPage />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

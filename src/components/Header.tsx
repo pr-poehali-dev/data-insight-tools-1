@@ -22,6 +22,9 @@ export function Header() {
         <Link to="/karty" className="text-sm text-gray-300 hover:text-white transition-colors flex items-center gap-1">
           Карты <ChevronDown className="h-4 w-4" />
         </Link>
+        <Link to="/zaimery" className="text-sm text-gray-300 hover:text-white transition-colors">
+          Топ займеров
+        </Link>
         <Link to="/usloviya" className="text-sm text-gray-300 hover:text-white transition-colors">
           Условия
         </Link>
@@ -44,6 +47,9 @@ export function Header() {
           </Link>
           <Link to="/karty" onClick={() => setMenuOpen(false)} className="text-sm text-gray-300 hover:text-white transition-colors flex items-center gap-1">
             Карты <ChevronDown className="h-4 w-4" />
+          </Link>
+          <Link to="/zaimery" onClick={() => setMenuOpen(false)} className="text-sm text-gray-300 hover:text-white transition-colors">
+            Топ займеров
           </Link>
           <Link to="/usloviya" onClick={() => setMenuOpen(false)} className="text-sm text-gray-300 hover:text-white transition-colors">
             Условия
