@@ -25,7 +25,7 @@ const offers = [
       "Привлекательные бонусы от партнёров",
       "Бизнес-карта для бизнеса — обслуживание 0 руб., выпуск виртуальной карты за 1 минуту, повышенный кэшбэк",
     ],
-    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/ce5bada4-4959-4271-99f4-376c3984aa6e.png",
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/93226358-8db1-4c70-9d3f-a1a5aa48a709.png",
     link: "#",
   },
   {
@@ -46,7 +46,7 @@ const offers = [
       "Платёжный день с 01:00 до 21:00 в другие банки и круглосуточно внутри Тинькофф",
       "Возможность открыть счёт-овердрафт в первый день после открытия РКО",
     ],
-    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/fe5b1a44-e236-42a4-a25c-9902752e1c65.png",
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/8770058e-79e8-4ec2-83fb-a4989557b111.png",
     link: "#",
   },
   {
@@ -65,7 +65,7 @@ const offers = [
       "Мгновенное зачисление на счёт",
       "Для онлайн и офлайн бизнесов",
     ],
-    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/2fa74966-1c0d-4248-bc4a-e42ede21a6bb.png",
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/66004ba7-cdf0-4fe5-9f6f-56a45d0f56da.png",
     link: "#",
   },
   {
@@ -81,7 +81,7 @@ const offers = [
       "До 7% кэшбэк по бизнес-карте",
       "До 3% на остаток по счёту по бизнес-карте",
     ],
-    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/7db2ab7e-2fff-4b80-8bca-f1c3824ae524.png",
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/03937e0c-46fe-4d3c-9117-98abe371fb0c.jpg",
     link: "#",
   },
   {
