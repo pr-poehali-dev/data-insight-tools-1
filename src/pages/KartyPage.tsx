@@ -16,7 +16,7 @@ const creditCards = [
       "120 дней без процентов предоставляется только при переводе баланса с другой кредитки, то есть, когда клиент переходит в Банк из другого Банка",
     ],
     image: "https://cdn.poehali.dev/files/433a81e2-1ea6-4fa6-be3c-91681c64e8cc.jpg",
-    link: "#",
+    link: "https://go.leadgid.ru/aff_c?aff_id=143535&offer_id=5642&p=10705&erid=LjN8KLpTP",
   },
   {
     id: 11,
@@ -32,7 +32,7 @@ const creditCards = [
       "Кэшбэк до 30% за покупки в витрине партнёров",
     ],
     image: "https://cdn.poehali.dev/files/bdc4741a-97ed-46bf-a839-973e9221cc3a.jpg",
-    link: "#",
+    link: "https://t.fincpanetwork.ru/click/91093/407/?erid=2W5zFH4Ww45",
   },
   {
     id: 1,
@@ -50,7 +50,7 @@ const creditCards = [
       "Бесплатная доставка карты курьером",
     ],
     image: "https://cdn.poehali.dev/files/9218d324-8d07-4ed7-9da3-db39b97bc6d2.png",
-    link: "#",
+    link: "https://t.fincpanetwork.ru/click/91093/622/?erid=2W5zFJExbPv",
   },
   {
     id: 2,
@@ -89,7 +89,7 @@ const debitCards = [
       "2% на все покупки",
     ],
     image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/69706859-1edd-41cb-a206-ccf0185f6606.jpg",
-    link: "#",
+    link: "https://t.fincpanetwork.ru/click/91093/193/?erid=Kra23hiMc",
   },
   {
     id: 4,
@@ -106,13 +106,13 @@ const debitCards = [
       "Бесплатная оплата ЖКХ, Мобильной связи, Штрафов ГИБДД и других услуг в приложении",
     ],
     image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/91968efe-d66b-4b73-a3ff-30ca6a2b1f3a.jpg",
-    link: "#",
+    link: "https://rfnd.io/t/wnj8x/?pid=2395&erid=2SDnjcfk959",
   },
   {
     id: 5,
     badge: "3 мес. Pro бесплатно",
     badgeColor: "bg-yellow-500/20 text-yellow-400",
-    title: "Т-Банк — Дебетовая карта Black",
+    title: "Дебетовая карта Black",
     description: "3 месяца подписки Т-Банк Pro бесплатно.",
     features: [
       "Кэшбэк в рублях — до 30% по спецпредложениям от партнёров",
@@ -124,7 +124,7 @@ const debitCards = [
       "Круглосуточная поддержка",
     ],
     image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/a41db186-978c-40ee-8bf6-89dfd2a31300.png",
-    link: "#",
+    link: "https://go.leadgid.ru/aff_c?aff_id=143535&offer_id=6432&p=10705&erid=LjN8KDq59",
   },
   {
     id: 6,
@@ -141,7 +141,7 @@ const debitCards = [
       "Оплата услуг ЖКХ без комиссии",
     ],
     image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/37302ca3-c0d0-4f7e-8627-2671bb8de281.png",
-    link: "#",
+    link: "https://rfnd.io/t/vh3g3/?pid=1859&erid=2SDnjcoEjZT",
   },
   {
     id: 7,
@@ -158,7 +158,7 @@ const debitCards = [
       "Для всех клиентов банка доход на фактический ежедневный остаток денежных средств — 13% годовых",
     ],
     image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/ab3476c4-6712-45ba-a32c-745aeb0406cc.jpg",
-    link: "#",
+    link: "https://t.fincpanetwork.ru/click/91093/582/?erid=2W5zFHDQrk9",
   },
   {
     id: 8,
@@ -173,7 +173,7 @@ const debitCards = [
       "Бесплатная доставка карты",
     ],
     image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/0db28e36-5b4a-44f3-aa13-aef51f6a5f7a.png",
-    link: "#",
+    link: "https://rfnd.io/t/w7dkb/?pid=473&erid=2SDnjboQugc",
   },
 ]
 
