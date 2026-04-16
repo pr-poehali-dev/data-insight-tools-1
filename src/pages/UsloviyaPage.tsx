@@ -106,13 +106,9 @@ export default function UsloviyaPage() {
           <span className="text-white font-semibold text-lg">Лучшие условия для оформления</span>
         </div>
 
-        <div className="mb-10 anim-card" style={{opacity:0}}>
-          <div className="inline-flex items-center gap-2 rounded-full bg-violet-500/10 border border-violet-500/20 px-3 py-1 mb-4">
-            <Shield className="h-3.5 w-3.5 text-violet-400" />
-            <span className="text-xs text-violet-400 font-medium">Условия работы</span>
-          </div>
-          <h1 className="text-3xl font-bold text-white mb-3">Условия и как мы работаем</h1>
-          <p className="text-gray-400 text-lg">Прозрачные условия сотрудничества, гарантии и ответы на частые вопросы</p>
+        <div className="mb-5 anim-card" style={{opacity:0}}>
+          <h1 className="text-2xl font-bold text-white mb-1">Условия и как мы работаем</h1>
+          <p className="text-gray-400">Прозрачные условия сотрудничества, гарантии и ответы на частые вопросы</p>
         </div>
 
         <div ref={cardsRef} className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-12">
