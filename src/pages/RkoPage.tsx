@@ -96,7 +96,7 @@ const offers = [
       "Бонусы от партнёров: откройте счёт и получайте доступ к предложениям от партнёров",
       "Надёжность: входим в ТОП-40 банков по активам",
     ],
-    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/e2cc40b4-265c-439b-bb98-ec1916a96451.png",
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/7d4d794a-244b-4aec-a08d-f3fb7bfb0d12.png",
     link: "#",
   },
   {
@@ -113,7 +113,7 @@ const offers = [
       "Удобные и необходимые сервисы",
       "Открытие РКО в любой точке России",
     ],
-    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/06a5a2c3-7d15-491e-ab6e-6482312082eb.png",
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/4a167e4e-5bf8-47f9-85eb-028c88e777ba.png",
     link: "#",
   },
   {
@@ -129,7 +129,7 @@ const offers = [
       "Онлайн-бухгалтерия с предложениями партнёров до 1 года бесплатно",
       "Выездное открытие на место ведения бизнеса",
     ],
-    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/6a9cfeb0-ff13-4457-97c6-cef06b79e25f.png",
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/55d49a7d-cadb-489d-a3a4-f0512cc23a5b.png",
     link: "#",
   },
 ]
