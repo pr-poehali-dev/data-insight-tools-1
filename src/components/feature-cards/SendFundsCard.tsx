@@ -23,7 +23,7 @@ export function SendFundsCard() {
         </button>
         {hovered && (
           <div className="absolute left-0 top-7 z-10 whitespace-nowrap rounded-lg bg-[#1f1f1f] border border-[#2a2a2a] px-3 py-2 text-sm text-violet-400 shadow-lg">
-            ymiiva555@gmail.com
+            magnitkaprime@gmail.com
           </div>
         )}
       </div>

@@ -149,7 +149,7 @@ export default function UsloviyaPage() {
               </div>
               <div>
                 <p className="text-xs text-gray-500">Email</p>
-                <p className="text-sm font-medium text-white">ymiiva555@gmail.com</p>
+                <p className="text-sm font-medium text-white">magnitkaprime@gmail.com</p>
               </div>
             </div>
           </div>
