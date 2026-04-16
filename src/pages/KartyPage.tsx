@@ -140,7 +140,7 @@ const debitCards = [
       "Оплата с Gazprom Pay Смартфоном в одно касание или онлайн без ввода реквизитов карты",
       "Оплата услуг ЖКХ без комиссии",
     ],
-    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/e8724017-4548-49be-9b80-d46e31e20f29.png",
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/37302ca3-c0d0-4f7e-8627-2671bb8de281.png",
     link: "#",
   },
   {
@@ -157,7 +157,7 @@ const debitCards = [
       "Получение неименной карты в день обращения",
       "Для всех клиентов банка доход на фактический ежедневный остаток денежных средств — 13% годовых",
     ],
-    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/2fffbaa2-89ef-4889-8717-c823e6bc278e.png",
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/ab3476c4-6712-45ba-a32c-745aeb0406cc.jpg",
     link: "#",
   },
   {
@@ -172,7 +172,7 @@ const debitCards = [
       "Скидки до 40% у партнёров",
       "Бесплатная доставка карты",
     ],
-    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/1c38a129-69bb-4cc9-ba73-12dd83ab84fc.png",
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/0db28e36-5b4a-44f3-aa13-aef51f6a5f7a.png",
     link: "#",
   },
 ]
