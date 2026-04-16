@@ -38,11 +38,11 @@ export function LinkAccountsCard() {
       <h3 className="mb-2 text-lg font-semibold text-white">Оформление ИП за 1 день</h3>
       <p className="mb-4 text-sm text-gray-400">Регистрируем ИП без визита в налоговую — полностью онлайн и бесплатно</p>
 
-      <Link to="/ip" className="mb-6 inline-flex items-center text-sm text-gray-400 hover:text-white transition-colors">
+      <Link to="/ip" className="mb-3 inline-flex items-center text-sm text-gray-400 hover:text-white transition-colors">
         Подробнее <ArrowUpRight className="ml-1 h-4 w-4" />
       </Link>
 
-      <div className="mt-auto space-y-2 rounded-xl bg-[#1a1a1a] border border-[#262626] p-3">
+      <div className="space-y-2 rounded-xl bg-[#1a1a1a] border border-[#262626] p-3">
         {steps.map((step, index) => (
           <div key={index} className="flex items-center justify-between rounded-lg bg-[#0f0f0f] px-3 py-2.5">
             <div className="flex items-center gap-3">
