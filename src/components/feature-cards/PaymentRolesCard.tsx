@@ -78,6 +78,28 @@ export function PaymentRolesCard() {
           <Link to="/karty">Подобрать карту</Link>
         </Button>
       </div>
+
+      <div className="mt-4 rounded-xl bg-[#1a1a1a] border border-[#262626] p-4">
+        <div className="flex items-center justify-between mb-3">
+          <p className="text-sm font-medium text-white">Займы онлайн</p>
+          <span className="text-xs text-green-400 bg-green-500/10 px-2 py-0.5 rounded-full">Быстро</span>
+        </div>
+        <div className="space-y-2 mb-3">
+          <div className="rounded-lg bg-[#0f0f0f] border border-[#262626] px-3 py-3">
+            <p className="text-sm font-medium text-white mb-1">До 30 000 ₽</p>
+            <p className="text-xs text-green-400 mb-0.5">Первый займ под 0%</p>
+            <p className="text-xs text-gray-500">Одобрение за 5 минут</p>
+          </div>
+          <div className="rounded-lg bg-[#0f0f0f] border border-[#262626] px-3 py-3">
+            <p className="text-sm font-medium text-white mb-1">До 100 000 ₽</p>
+            <p className="text-xs text-violet-400 mb-0.5">Только паспорт</p>
+            <p className="text-xs text-gray-500">Деньги на карту любого банка</p>
+          </div>
+        </div>
+        <Button className="w-full bg-[#1f1f1f] hover:bg-[#2a2a2a] text-white border border-[#333] mt-1" asChild>
+          <Link to="/zaimery">Топ займеров</Link>
+        </Button>
+      </div>
     </div>
   )
 }
