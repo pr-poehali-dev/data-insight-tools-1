@@ -21,7 +21,7 @@ const zaimery = [
     rateLabel: "первый займ",
     image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/a631f970-de50-4bb1-8c26-9bc49a8ecc21.png",
     disclaimer: "Заём от 2000 руб. до 30000 руб., срок до 30 дней, ПСК 292% годовых, ставка 0-0,8%. ПАО МКК «Займер». ИНН: 5406836941. ОГРН: 1235400049356. 18+",
-    link: "#",
+    link: "https://t.fincpanetwork.ru/click/91093/15/?erid=2W5zFHwA2h6",
   },
   {
     id: 2,
@@ -40,7 +40,7 @@ const zaimery = [
     rateLabel: "первый займ",
     image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/f7da0b37-f62f-41b2-8465-271635b4a3a9.jpg",
     disclaimer: "ООО МФК «Мани Мен». Полная стоимость займа 0-292% годовых. При своевременном погашении первичного займа на сумму от 1500 до 15000 рублей на срок от 5 до 21 дня полная стоимость займа составит 0%. Оценивайте свои финансовые возможности и риски.",
-    link: "#",
+    link: "https://go.leadgid.com/aff_c?aff_id=143535&offer_id=5024&p=10705&erid=LjN8KHDvg",
   },
   {
     id: 3,
@@ -59,7 +59,7 @@ const zaimery = [
     rateLabel: "в день",
     image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/a71d7a20-1cd9-4a13-9aee-14976a371c42.png",
     disclaimer: "Реклама ООО МКК «Срочноденьги» ИНН 5260271530. Диапазон полной стоимости займа 292%-292% годовых. Ставка 0,8%/день. Сумма от 2 до 100 тыс.руб. Срок от 1 до 360 дней. Без залога.",
-    link: "#",
+    link: "https://t.fincpanetwork.ru/click/91093/38/?erid=LjN8Kaxif",
   },
   {
     id: 4,
@@ -78,7 +78,7 @@ const zaimery = [
     rateLabel: "в день",
     image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/4b88082a-32e1-4c9d-9636-2cda37052f35.jpg",
     disclaimer: "ПСК 292% годовых. Ставка в день 0,8%. Сумма от 1000 руб. до 30000 руб. Срок от 5 до 30 дней. Валюта: Рубли. Оценивайте свои финансовые возможности и риски.",
-    link: "#",
+    link: "https://t.fincpanetwork.ru/click/91093/241/?erid=LjN8K54Q9",
   },
   {
     id: 5,
@@ -97,7 +97,7 @@ const zaimery = [
     rateLabel: "первые 10 дней",
     image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/fb4959a9-422e-419f-bcc0-f16f454b4245.jpg",
     disclaimer: "ООО МКК Быстроденьги. ПСК 25,550%-25,550%. Ставка 0,07% в день (0% с 1 по 10 день при возврате не позднее 10-го дня). Сумма от 3000 до 30000 руб. Срок от 12 до 30 дней. 18+",
-    link: "#",
+    link: "https://t.fincpanetwork.ru/click/91093/613/?erid=LjN8JtHPe",
   },
 ]
 
