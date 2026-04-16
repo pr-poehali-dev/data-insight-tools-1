@@ -101,14 +101,9 @@ export default function UsloviyaPage() {
           <ArrowLeft className="h-4 w-4" /> Назад на главную
         </Link>
 
-        <div className="flex items-center gap-2 mb-6">
+        <div className="flex items-center gap-2 mb-4">
           <Zap className="h-4 w-4 text-yellow-400 fill-yellow-400" />
           <span className="text-white font-semibold text-lg">Лучшие условия для оформления</span>
-        </div>
-
-        <div className="mb-5 anim-card" style={{opacity:0}}>
-          <h1 className="text-2xl font-bold text-white mb-1">Условия и как мы работаем</h1>
-          <p className="text-gray-400">Прозрачные условия сотрудничества, гарантии и ответы на частые вопросы</p>
         </div>
 
         <div ref={cardsRef} className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-12">
