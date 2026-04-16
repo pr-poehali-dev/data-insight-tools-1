@@ -26,7 +26,7 @@ const offers = [
       "Бизнес-карта для бизнеса — обслуживание 0 руб., выпуск виртуальной карты за 1 минуту, повышенный кэшбэк",
     ],
     image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/93226358-8db1-4c70-9d3f-a1a5aa48a709.png",
-    link: "#",
+    link: "https://go.leadgid.ru/aff_c?aff_id=143535&offer_id=6058&p=10705&erid=LjN8KPGbS",
   },
   {
     id: 2,
@@ -47,7 +47,7 @@ const offers = [
       "Возможность открыть счёт-овердрафт в первый день после открытия РКО",
     ],
     image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/8770058e-79e8-4ec2-83fb-a4989557b111.png",
-    link: "#",
+    link: "https://go.leadgid.ru/aff_c?aff_id=143535&offer_id=4307&p=10705&erid=LjN8KESJh",
   },
   {
     id: 4,
@@ -66,7 +66,7 @@ const offers = [
       "Для онлайн и офлайн бизнесов",
     ],
     image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/66004ba7-cdf0-4fe5-9f6f-56a45d0f56da.png",
-    link: "#",
+    link: "https://go.leadgid.ru/aff_c?aff_id=143535&offer_id=7029&p=10705&erid=2W5zFJEjRtL",
   },
   {
     id: 5,
@@ -82,7 +82,7 @@ const offers = [
       "До 3% на остаток по счёту по бизнес-карте",
     ],
     image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/03937e0c-46fe-4d3c-9117-98abe371fb0c.jpg",
-    link: "#",
+    link: "https://go.leadgid.ru/aff_c?aff_id=143535&offer_id=5568&p=10705&erid=2W5zFJkoeBA",
   },
   {
     id: 6,
@@ -114,7 +114,7 @@ const offers = [
       "Открытие РКО в любой точке России",
     ],
     image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/4a167e4e-5bf8-47f9-85eb-028c88e777ba.png",
-    link: "#",
+    link: "https://t.fincpanetwork.ru/click/91093/354/?erid=2W5zFFxcWrk",
   },
   {
     id: 3,
@@ -130,7 +130,7 @@ const offers = [
       "Выездное открытие на место ведения бизнеса",
     ],
     image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/55d49a7d-cadb-489d-a3a4-f0512cc23a5b.png",
-    link: "#",
+    link: "https://t.fincpanetwork.ru/click/91093/631/?erid=2W5zFHvrcYQ",
   },
 ]
 
