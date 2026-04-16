@@ -88,7 +88,7 @@ const debitCards = [
       "2% на супермаркеты",
       "2% на все покупки",
     ],
-    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/49c00fd2-6a1b-4558-9019-e08ec2d82aff.png",
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/69706859-1edd-41cb-a206-ccf0185f6606.jpg",
     link: "#",
   },
   {
@@ -105,7 +105,7 @@ const debitCards = [
       "Перевод без комиссии в другие банки по номеру телефона",
       "Бесплатная оплата ЖКХ, Мобильной связи, Штрафов ГИБДД и других услуг в приложении",
     ],
-    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/7a814e0f-705d-4cf2-9e49-76afbf700e95.png",
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/91968efe-d66b-4b73-a3ff-30ca6a2b1f3a.jpg",
     link: "#",
   },
   {
@@ -123,7 +123,7 @@ const debitCards = [
       "Мультифункциональное приложение",
       "Круглосуточная поддержка",
     ],
-    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/27be940b-1b30-45ba-b8e5-2f28c4a4d73f.png",
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/a41db186-978c-40ee-8bf6-89dfd2a31300.png",
     link: "#",
   },
   {
