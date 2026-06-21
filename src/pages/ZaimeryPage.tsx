@@ -1,3 +1,4 @@
+import { useEffect } from "react"
 import { Link } from "react-router-dom"
 import { ArrowLeft, CheckCircle2, Zap, Shield, ArrowUpRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
@@ -102,6 +103,21 @@ const zaimery = [
 ]
 
 export default function ZaimeryPage() {
+  useEffect(() => {
+    const w = window as Window & { ym?: (id: number, action: string, params?: object) => void }
+    if (typeof w.ym === 'undefined') {
+      const script = document.createElement('script')
+      script.src = 'https://mc.yandex.ru/metrika/tag.js?id=110042257'
+      script.async = true
+      document.head.appendChild(script)
+      script.onload = () => {
+        w.ym(110042257, 'init', { webvisor: true, clickmap: true, trackLinks: true, accurateTrackBounce: true })
+      }
+    } else {
+      w.ym(110042257, 'init', { webvisor: true, clickmap: true, trackLinks: true, accurateTrackBounce: true })
+    }
+  }, [])
+
   return (
     <main className="min-h-screen bg-[#0a0a0a]">
       <Header />
