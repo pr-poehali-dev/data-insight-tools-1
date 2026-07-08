@@ -150,6 +150,12 @@ export default function UsloviyaPage() {
             </div>
           </div>
         </div>
+
+        <div className="mt-8 text-center text-xs text-gray-500 leading-relaxed">
+          <p>ООО «ФСН» ИНН 9103104833, ОГРН 1249100012479</p>
+          <p>298683, Республика Крым, пгт Парковое, Центральная ул, д. 9а</p>
+          <p>+7 495 137-48-35. © 2026 FCN. Все права защищены.</p>
+        </div>
       </div>
 
       <footer className="py-8 text-center text-sm text-gray-400">
