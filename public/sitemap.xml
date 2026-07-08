@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://magnitkaprime.poehali.app/</loc>
+    <loc>https://primefin.poehali.app/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://magnitkaprime.poehali.app/ip</loc>
+    <loc>https://primefin.poehali.app/ip</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://magnitkaprime.poehali.app/karty</loc>
+    <loc>https://primefin.poehali.app/karty</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://magnitkaprime.poehali.app/rko</loc>
+    <loc>https://primefin.poehali.app/rko</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://magnitkaprime.poehali.app/zaimery</loc>
+    <loc>https://primefin.poehali.app/zaimery</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://magnitkaprime.poehali.app/usloviya</loc>
+    <loc>https://primefin.poehali.app/usloviya</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

@@ -13,4 +13,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://magnitkaprime.poehali.app/sitemap.xml
+Sitemap: https://primefin.poehali.app/sitemap.xml

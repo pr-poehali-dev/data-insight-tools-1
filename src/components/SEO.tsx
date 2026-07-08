@@ -8,7 +8,7 @@ interface SEOProps {
 }
 
 const SITE_NAME = "Magnitka Prime"
-const BASE_URL = "https://magnitkaprime.poehali.app"
+const BASE_URL = "https://primefin.poehali.app"
 
 function setMeta(name: string, content: string, attr: "name" | "property" = "name") {
   let el = document.querySelector<HTMLMetaElement>(`meta[${attr}="${name}"]`)
