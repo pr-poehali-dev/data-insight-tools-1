@@ -2,6 +2,7 @@ import { useEffect, useRef } from "react"
 import { Link } from "react-router-dom"
 import { ArrowLeft, CheckCircle2, FileText, Shield, Clock, Users, Mail, Zap } from "lucide-react"
 import { Header } from "@/components/Header"
+import { SEO } from "@/components/SEO"
 
 const sections = [
   {
@@ -90,6 +91,12 @@ export default function UsloviyaPage() {
 
   return (
     <main className="min-h-screen bg-[#0a0a0a]">
+      <SEO
+        title="Условия оформления — гарантии и сроки"
+        description="Узнайте условия оформления ИП, карт, счетов и займов. Бесплатный сервис, лицензированные банки, сроки от 1 часа. Частые вопросы и ответы."
+        keywords="условия оформления, гарантии сервиса, сроки оформления карты, сроки открытия счёта, частые вопросы, FAQ финансовые услуги"
+        path="/usloviya"
+      />
       <Header />
 
       <div className="max-w-4xl mx-auto px-6 py-12">

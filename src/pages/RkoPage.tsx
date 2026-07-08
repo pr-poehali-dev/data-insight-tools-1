@@ -2,6 +2,7 @@ import { Link } from "react-router-dom"
 import { ArrowLeft, ArrowUpRight, CheckCircle2, Building2, Clock, Shield, Zap } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Header } from "@/components/Header"
+import { SEO } from "@/components/SEO"
 
 const offers = [
   {
@@ -137,6 +138,12 @@ const offers = [
 export default function RkoPage() {
   return (
     <main className="min-h-screen bg-[#0a0a0a]">
+      <SEO
+        title="Расчётный счёт для бизнеса — РКО"
+        description="Откройте расчётный счёт для ИП и ООО бесплатно за 25 минут. Обслуживание 0 ₽, бизнес-карта в подарок, поддержка 24/7 от ведущих банков."
+        keywords="расчётный счёт для бизнеса, РКО, открыть расчётный счёт, счёт для ИП, счёт для ООО, банковское обслуживание бизнеса, бесплатный расчётный счёт"
+        path="/rko"
+      />
       <Header />
 
       <div className="max-w-5xl mx-auto px-6 py-12">

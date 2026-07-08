@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 import { ArrowLeft, CheckCircle2, Zap, Shield, ArrowUpRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Header } from "@/components/Header"
+import { SEO } from "@/components/SEO"
 
 const zaimery = [
   {
@@ -122,6 +123,12 @@ export default function ZaimeryPage() {
 
   return (
     <main className="min-h-screen bg-[#0a0a0a]">
+      <SEO
+        title="Займы онлайн на карту — быстрое одобрение"
+        description="Оформите займ онлайн на карту от 2 000 до 30 000 ₽. Первый займ без процентов, одобрение за 2 минуты, деньги на карту в течение часа."
+        keywords="займ онлайн, займ на карту, микрозайм, взять займ без отказа, первый займ без процентов, займ с плохой кредитной историей"
+        path="/zaimery"
+      />
       <Header />
 
       <div className="max-w-4xl mx-auto px-6 py-12">

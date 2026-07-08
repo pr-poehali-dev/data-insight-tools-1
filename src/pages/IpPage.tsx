@@ -2,6 +2,7 @@ import { Link } from "react-router-dom"
 import { ArrowLeft, ArrowUpRight, CheckCircle2, FileText, Clock, Shield, Zap } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Header } from "@/components/Header"
+import { SEO } from "@/components/SEO"
 
 const offers = [
   {
@@ -52,6 +53,12 @@ const offers = [
 export default function IpPage() {
   return (
     <main className="min-h-screen bg-[#0a0a0a]">
+      <SEO
+        title="Регистрация ИП онлайн бесплатно"
+        description="Оформите ИП онлайн бесплатно за 1 день. Без госпошлины, без визитов в налоговую. Открытие расчётного счёта и бухгалтерия в подарок."
+        keywords="регистрация ИП онлайн, открыть ИП бесплатно, оформить ИП, регистрация бизнеса, ИП документы, открыть расчётный счёт для ИП"
+        path="/ip"
+      />
       <Header />
 
       <div className="max-w-5xl mx-auto px-6 py-12">

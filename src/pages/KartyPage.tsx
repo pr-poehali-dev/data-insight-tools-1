@@ -2,6 +2,7 @@ import { Link } from "react-router-dom"
 import { ArrowLeft, ArrowUpRight, CheckCircle2, CreditCard, Star, Percent, Gift } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Header } from "@/components/Header"
+import { SEO } from "@/components/SEO"
 
 const creditCards = [
   {
@@ -227,6 +228,12 @@ function CardOffer({ offer }: { offer: Offer }) {
 export default function KartyPage() {
   return (
     <main className="min-h-screen bg-[#0a0a0a]">
+      <SEO
+        title="Кредитные и дебетовые карты онлайн"
+        description="Оформите кредитную или дебетовую карту онлайн с доставкой. Кредитный лимит до 1 млн ₽, до 120 дней без процентов, кэшбэк и бесплатное обслуживание."
+        keywords="кредитная карта онлайн, дебетовая карта, оформить карту онлайн, карта с кэшбэком, кредитная карта без процентов, банковская карта заказать"
+        path="/karty"
+      />
       <Header />
 
       <div className="max-w-5xl mx-auto px-6 py-12">
