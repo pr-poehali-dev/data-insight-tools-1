@@ -23,7 +23,7 @@ const offers = [
       "Платим деньги за любые действия по счёту",
     ],
     color: "bg-red-600",
-    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/cbbb7203-3b10-4558-8ec5-1418d51b2f49.png",
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/files/f7ab3639-7102-4013-beed-413294c9b02d.jpg",
     link: "https://go.leadgid.ru/aff_c?aff_id=143535&offer_id=5827&p=10705&erid=2W5zFHq9R76",
   },
   {
@@ -45,7 +45,7 @@ const offers = [
       "Поддержка 24/7",
     ],
     color: "bg-blue-600",
-    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/a8389f30-eaf9-4529-9b63-64ff4bf73760.jpg",
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/files/c9ce8c3b-e295-4304-bd96-ecc37c881f0a.jpg",
     link: "https://go.leadgid.ru/aff_c?aff_id=143535&offer_id=6610&p=10705&erid=LjN8K1SPC",
   },
 ]

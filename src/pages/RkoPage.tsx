@@ -26,7 +26,7 @@ const offers = [
       "Привлекательные бонусы от партнёров",
       "Бизнес-карта для бизнеса — обслуживание 0 руб., выпуск виртуальной карты за 1 минуту, повышенный кэшбэк",
     ],
-    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/93226358-8db1-4c70-9d3f-a1a5aa48a709.png",
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/files/c9ce8c3b-e295-4304-bd96-ecc37c881f0a.jpg",
     link: "https://go.leadgid.ru/aff_c?aff_id=143535&offer_id=6058&p=10705&erid=LjN8KPGbS",
   },
   {
@@ -47,7 +47,7 @@ const offers = [
       "Платёжный день с 01:00 до 21:00 в другие банки и круглосуточно внутри Тинькофф",
       "Возможность открыть счёт-овердрафт в первый день после открытия РКО",
     ],
-    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/8770058e-79e8-4ec2-83fb-a4989557b111.png",
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/files/f7799c91-91d2-4c19-bb05-b8cd14f37b82.jpg",
     link: "https://go.leadgid.ru/aff_c?aff_id=143535&offer_id=4307&p=10705&erid=LjN8KESJh",
   },
   {
@@ -66,7 +66,7 @@ const offers = [
       "Мгновенное зачисление на счёт",
       "Для онлайн и офлайн бизнесов",
     ],
-    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/66004ba7-cdf0-4fe5-9f6f-56a45d0f56da.png",
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/files/370d4655-4228-4e53-abec-122a07d15258.jpg",
     link: "https://go.leadgid.ru/aff_c?aff_id=143535&offer_id=7029&p=10705&erid=2W5zFJEjRtL",
   },
   {
@@ -82,7 +82,7 @@ const offers = [
       "До 7% кэшбэк по бизнес-карте",
       "До 3% на остаток по счёту по бизнес-карте",
     ],
-    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/03937e0c-46fe-4d3c-9117-98abe371fb0c.jpg",
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/files/eca28c74-a916-43fd-a959-b71b4759a213.jpg",
     link: "https://go.leadgid.ru/aff_c?aff_id=143535&offer_id=5568&p=10705&erid=2W5zFJkoeBA",
   },
   {
@@ -97,7 +97,7 @@ const offers = [
       "Бонусы от партнёров: откройте счёт и получайте доступ к предложениям от партнёров",
       "Надёжность: входим в ТОП-40 банков по активам",
     ],
-    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/7d4d794a-244b-4aec-a08d-f3fb7bfb0d12.png",
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/files/f7ab3639-7102-4013-beed-413294c9b02d.jpg",
     link: "#",
   },
   {
@@ -114,7 +114,7 @@ const offers = [
       "Удобные и необходимые сервисы",
       "Открытие РКО в любой точке России",
     ],
-    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/4a167e4e-5bf8-47f9-85eb-028c88e777ba.png",
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/files/0b876a38-6071-4107-9b4a-f55473a9a56d.jpg",
     link: "https://t.fincpanetwork.ru/click/91093/354/?erid=2W5zFFxcWrk",
   },
   {
@@ -130,7 +130,7 @@ const offers = [
       "Онлайн-бухгалтерия с предложениями партнёров до 1 года бесплатно",
       "Выездное открытие на место ведения бизнеса",
     ],
-    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/55d49a7d-cadb-489d-a3a4-f0512cc23a5b.png",
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/files/5dfc199e-28d3-44de-9a65-6c27f7c41844.jpg",
     link: "https://pxl.leads.su/click/9c51549346e0b692c3a21e4a4bc53e0f?erid=2W5zFGKZ3FE",
   },
 ]

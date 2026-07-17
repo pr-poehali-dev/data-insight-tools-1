@@ -89,7 +89,7 @@ const debitCards = [
       "2% на супермаркеты",
       "2% на все покупки",
     ],
-    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/69706859-1edd-41cb-a206-ccf0185f6606.jpg",
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/files/c9ce8c3b-e295-4304-bd96-ecc37c881f0a.jpg",
     link: "https://t.fincpanetwork.ru/click/91093/193/?erid=Kra23hiMc",
   },
   {
@@ -106,7 +106,7 @@ const debitCards = [
       "Перевод без комиссии в другие банки по номеру телефона",
       "Бесплатная оплата ЖКХ, Мобильной связи, Штрафов ГИБДД и других услуг в приложении",
     ],
-    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/91968efe-d66b-4b73-a3ff-30ca6a2b1f3a.jpg",
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/files/f7ab3639-7102-4013-beed-413294c9b02d.jpg",
     link: "https://rfnd.io/t/wnj8x/?pid=2395&erid=2SDnjcfk959",
   },
   {
@@ -124,7 +124,7 @@ const debitCards = [
       "Мультифункциональное приложение",
       "Круглосуточная поддержка",
     ],
-    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/a41db186-978c-40ee-8bf6-89dfd2a31300.png",
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/files/f7799c91-91d2-4c19-bb05-b8cd14f37b82.jpg",
     link: "https://go.leadgid.ru/aff_c?aff_id=143535&offer_id=6432&p=10705&erid=LjN8KDq59",
   },
   {
@@ -141,7 +141,7 @@ const debitCards = [
       "Оплата с Gazprom Pay Смартфоном в одно касание или онлайн без ввода реквизитов карты",
       "Оплата услуг ЖКХ без комиссии",
     ],
-    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/37302ca3-c0d0-4f7e-8627-2671bb8de281.png",
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/files/c9ce8c3b-e295-4304-bd96-ecc37c881f0a.jpg",
     link: "https://rfnd.io/t/vh3g3/?pid=1859&erid=2SDnjcoEjZT",
   },
   {
@@ -158,7 +158,7 @@ const debitCards = [
       "Получение неименной карты в день обращения",
       "Для всех клиентов банка доход на фактический ежедневный остаток денежных средств — 13% годовых",
     ],
-    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/ab3476c4-6712-45ba-a32c-745aeb0406cc.jpg",
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/files/eca28c74-a916-43fd-a959-b71b4759a213.jpg",
     link: "https://t.fincpanetwork.ru/click/91093/582/?erid=2W5zFHDQrk9",
   },
   {
@@ -173,7 +173,7 @@ const debitCards = [
       "Скидки до 40% у партнёров",
       "Бесплатная доставка карты",
     ],
-    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/0db28e36-5b4a-44f3-aa13-aef51f6a5f7a.png",
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/files/370d4655-4228-4e53-abec-122a07d15258.jpg",
     link: "https://rfnd.io/t/w7dkb/?pid=473&erid=2SDnjboQugc",
   },
 ]
