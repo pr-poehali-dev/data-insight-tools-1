@@ -101,6 +101,25 @@ const zaimery = [
     disclaimer: "ООО МКК Быстроденьги. ПСК 25,550%-25,550%. Ставка 0,07% в день (0% с 1 по 10 день при возврате не позднее 10-го дня). Сумма от 3000 до 30000 руб. Срок от 12 до 30 дней. 18+",
     link: "https://t.fincpanetwork.ru/click/91093/613/?erid=LjN8JtHPe",
   },
+  {
+    id: 6,
+    badge: "Быстрое одобрение",
+    badgeColor: "bg-pink-500/20 text-pink-400",
+    title: "Турбозайм",
+    subtitle: "от 3 000 до 30 000 руб. · срок от 7 до 30 дней",
+    features: [
+      "Сумма: от 3 000 до 30 000 руб.",
+      "Срок: от 7 до 30 дней",
+      "Быстрое рассмотрение заявки",
+      "Деньги на карту без визита в офис",
+      "Без залога и поручителей",
+    ],
+    rate: "от 0%",
+    rateLabel: "первый займ",
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/a631f970-de50-4bb1-8c26-9bc49a8ecc21.png",
+    disclaimer: "ООО МКК Турбозайм",
+    link: "https://t.fincpanetwork.ru/click/91093/14?erid=2W5zFHvzYLZ",
+  },
 ]
 
 export default function ZaimeryPage() {
