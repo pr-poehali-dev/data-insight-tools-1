@@ -131,7 +131,7 @@ const offers = [
       "Выездное открытие на место ведения бизнеса",
     ],
     image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/bucket/55d49a7d-cadb-489d-a3a4-f0512cc23a5b.png",
-    link: "https://t.fincpanetwork.ru/click/91093/631/?erid=2W5zFHvrcYQ",
+    link: "https://pxl.leads.su/click/9c51549346e0b692c3a21e4a4bc53e0f?erid=2W5zFGKZ3FE",
   },
 ]
 
