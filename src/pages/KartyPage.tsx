@@ -195,6 +195,25 @@ const debitCards = [
   },
 ]
 
+const savingsAccounts = [
+  {
+    id: 30,
+    badge: "Онлайн",
+    badgeColor: "bg-blue-500/20 text-blue-400",
+    title: "Газпромбанк — Накопительный счёт",
+    description: "",
+    features: [
+      "Выплата процентов ежемесячно",
+      "Капитализация",
+      "Пополнение",
+      "Частичное снятие",
+      "Открытие онлайн",
+    ],
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/files/bb53556b-2730-46cb-835d-4f0917aa32b9.jpg",
+    link: "https://r.dalead.pro/go12273",
+  },
+]
+
 type Offer = {
   id: number
   badge: string
@@ -286,6 +305,18 @@ export default function KartyPage() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
             {debitCards.map((offer) => (
+              <CardOffer key={offer.id} offer={offer} />
+            ))}
+          </div>
+        </div>
+
+        <div className="mt-10">
+          <div className="flex items-center gap-2 mb-5">
+            <Percent className="h-4 w-4 text-blue-400" />
+            <h2 className="text-lg font-semibold text-white">Накопительные счета</h2>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+            {savingsAccounts.map((offer) => (
               <CardOffer key={offer.id} offer={offer} />
             ))}
           </div>
