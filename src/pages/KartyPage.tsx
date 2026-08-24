@@ -17,7 +17,7 @@ const creditCards = [
       "120 дней без процентов предоставляется только при переводе баланса с другой кредитки, то есть, когда клиент переходит в Банк из другого Банка",
     ],
     image: "https://cdn.poehali.dev/files/433a81e2-1ea6-4fa6-be3c-91681c64e8cc.jpg",
-    link: "https://go.leadgid.ru/aff_c?aff_id=143535&offer_id=5642&p=10705&erid=LjN8KLpTP",
+    link: "https://pxl.leads.su/click/9adaf1ee2fd5bddb8f5f33beb8c8c1d8?erid=2W5zFGt54nu",
   },
   {
     id: 11,
