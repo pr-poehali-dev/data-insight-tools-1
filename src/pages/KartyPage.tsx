@@ -70,7 +70,7 @@ const creditCards = [
       "Можно переводить собственные деньги с кредитной карты на дебетовую карту или счёт в Альфа-Банке без комиссии",
     ],
     image: "https://cdn.poehali.dev/files/9bbb75a4-8e1d-4cf8-96da-27b16164222a.png",
-    link: "#",
+    link: "https://t.fincpanetwork.ru/click/91093/339?erid=2W5zFJjJPEG",
   },
 ]
 
