@@ -23,7 +23,7 @@ const zaimery = [
     rateLabel: "первый займ",
     image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/files/32b44057-0b73-47ae-a66d-0bd55fb7d1cf.jpg",
     disclaimer: "Заём от 2000 руб. до 30000 руб., срок до 30 дней, ПСК 292% годовых, ставка 0-0,8%. ПАО МКК «Займер». ИНН: 5406836941. ОГРН: 1235400049356. 18+",
-    link: "https://t.fincpanetwork.ru/click/91093/15/?erid=2W5zFHwA2h6",
+    link: "https://rko-group.ru/s/HnglHIPP",
   },
   {
     id: 2,
@@ -119,7 +119,7 @@ const zaimery = [
     rateLabel: "первый займ",
     image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/files/3c374362-4ada-4a4f-92fc-1b238f33d716.jpg",
     disclaimer: "ООО МКК Турбозайм",
-    link: "https://t.fincpanetwork.ru/click/91093/14?erid=2W5zFHvzYLZ",
+    link: "https://r.dalead.pro/go12312",
   },
 ]
 
