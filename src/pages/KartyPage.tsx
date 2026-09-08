@@ -72,6 +72,22 @@ const creditCards = [
     image: "https://cdn.poehali.dev/files/9bbb75a4-8e1d-4cf8-96da-27b16164222a.png",
     link: "https://t.fincpanetwork.ru/click/91093/339?erid=2W5zFJjJPEG",
   },
+  {
+    id: 12,
+    badge: "120 дней без %",
+    badgeColor: "bg-green-500/20 text-green-400",
+    title: "Сбер — Кредитная карта",
+    description: "",
+    features: [
+      "0 руб. за выпуск и обслуживание навсегда",
+      "120 дней без процентов",
+      "До 1 млн. руб. кредитный лимит",
+      "Выгодная ставка от 9.8% до 37.4%",
+      "Решение за 2 минуты онлайн. Без документов",
+    ],
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/files/ad00b23a-92e7-4434-b2aa-22c16d47f599.jpg",
+    link: "https://r.dalead.pro/go12366",
+  },
 ]
 
 const debitCards = [
