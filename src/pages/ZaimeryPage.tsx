@@ -61,7 +61,7 @@ const zaimery = [
     rateLabel: "в день",
     image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/files/0cbc4ade-4b42-4f83-8225-5cda1a1e8c9e.jpg",
     disclaimer: "Реклама ООО МКК «Срочноденьги» ИНН 5260271530. Диапазон полной стоимости займа 292%-292% годовых. Ставка 0,8%/день. Сумма от 2 до 100 тыс.руб. Срок от 1 до 360 дней. Без залога.",
-    link: "https://t.fincpanetwork.ru/click/91093/38/?erid=LjN8Kaxif",
+    link: "https://r.dalead.pro/go12436",
   },
   {
     id: 4,
