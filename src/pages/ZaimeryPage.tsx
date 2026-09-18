@@ -164,7 +164,7 @@ const zaimery = [
     id: 9,
     badge: "АКЦИЯ — первый 0%",
     badgeColor: "bg-orange-500/20 text-orange-400",
-    title: "Первый заём без процентов",
+    title: "Max.Credit",
     subtitle: "от 3 000 до 30 000 руб. · срок от 5 до 30 дней",
     features: [
       "Сумма займа: от 3 000 руб. до 30 000 руб.",
