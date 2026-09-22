@@ -7,6 +7,24 @@ import { SEO } from "@/components/SEO"
 
 const zaimery = [
   {
+    id: 12,
+    badge: "Высокое одобрение",
+    badgeColor: "bg-purple-500/20 text-purple-400",
+    title: "Joymoney",
+    subtitle: "до 20 000 руб. · срок до 30 дней · деньги за 15 минут",
+    features: [
+      "Выгодные условия и высокий уровень одобрения",
+      "Сумма займа: до 20 000 руб.",
+      "Срок займа: до 30 дней",
+      "Деньги на карту в течение 15 минут после подачи анкеты",
+    ],
+    rate: "15",
+    rateLabel: "минут на карту",
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/files/b6a86d51-0829-495c-9e80-db2777235367.jpg",
+    disclaimer: "Оценивайте свои финансовые возможности и риски. 18+",
+    link: "https://r.dalead.pro/go12624",
+  },
+  {
     id: 11,
     badge: "Высокое одобрение",
     badgeColor: "bg-sky-500/20 text-sky-400",
