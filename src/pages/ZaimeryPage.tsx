@@ -7,6 +7,25 @@ import { SEO } from "@/components/SEO"
 
 const zaimery = [
   {
+    id: 11,
+    badge: "Высокое одобрение",
+    badgeColor: "bg-sky-500/20 text-sky-400",
+    title: "Займ онлайн на карту",
+    subtitle: "Простой и быстрый способ · решение за 1-2 минуты",
+    features: [
+      "Не выходя из дома, без похода в офис",
+      "Без справок, без поручителей, без залога",
+      "Нужен только паспорт РФ",
+      "Решение по заявке за 1-2 минуты",
+      "Высокое одобрение",
+    ],
+    rate: "1-2",
+    rateLabel: "минуты на решение",
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/files/a30d688f-e35f-44d7-ae33-099fbf5c2f9c.jpg",
+    disclaimer: "Оценивайте свои финансовые возможности и риски. 18+",
+    link: "https://r.dalead.pro/ru-webbankir-headlead/?flow=12313&src=1",
+  },
+  {
     id: 10,
     badge: "АКЦИЯ — первый 0%",
     badgeColor: "bg-orange-500/20 text-orange-400",
