@@ -48,6 +48,25 @@ const offers = [
     image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/files/c9ce8c3b-e295-4304-bd96-ecc37c881f0a.jpg",
     link: "https://go.leadgid.ru/aff_c?aff_id=143535&offer_id=6610&p=10705&erid=LjN8K1SPC",
   },
+  {
+    id: 3,
+    bank: "Ozon Банк",
+    badge: "Бесплатно",
+    badgeColor: "bg-cyan-500/20 text-cyan-400",
+    title: "Ozon Банк — Регистрация бизнеса",
+    description: "Бесплатная онлайн-регистрация ИП или ООО с открытием расчётного счёта.",
+    features: [
+      "Бесплатная регистрация ИП или ООО полностью онлайн",
+      "Банк готовит и отправляет документы в ФНС",
+      "Выпуск квалифицированной электронной подписи (КЭП)",
+      "Бесплатный расчётный счёт сразу после регистрации",
+      "Полный набор инструментов для ведения бизнеса",
+      "Без посещения государственных органов",
+    ],
+    color: "bg-cyan-600",
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/files/e78faef7-ded8-4c3f-8fe4-ab1d12a2bd97.jpg",
+    link: "https://rko-group.ru/s/92oPhkQt",
+  },
 ]
 
 export default function IpPage() {
