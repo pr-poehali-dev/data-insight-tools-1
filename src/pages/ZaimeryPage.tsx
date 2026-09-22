@@ -7,6 +7,25 @@ import { SEO } from "@/components/SEO"
 
 const zaimery = [
   {
+    id: 10,
+    badge: "АКЦИЯ — первый 0%",
+    badgeColor: "bg-orange-500/20 text-orange-400",
+    title: "CREDIT 7",
+    subtitle: "от 1 000 до 30 000 руб. · срок от 7 до 30 дней",
+    features: [
+      "Сумма займа: от 1 000 до 30 000 руб.",
+      "Возраст заёмщика: от 18 до 75 лет",
+      "Срок займа: от 7 до 30 дней",
+      "Ставка: от 0% на первый заём",
+      "Оперативность, простота и надёжность",
+    ],
+    rate: "от 0%",
+    rateLabel: "первый займ",
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/files/a9ae577c-9fce-49b8-bd42-238f9beb65d0.jpg",
+    disclaimer: "Оценивайте свои финансовые возможности и риски. 18+",
+    link: "https://r.dalead.pro/go12548",
+  },
+  {
     id: 1,
     badge: "АКЦИЯ — первый 0%",
     badgeColor: "bg-orange-500/20 text-orange-400",
