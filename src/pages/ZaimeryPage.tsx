@@ -22,7 +22,7 @@ const zaimery = [
     rateLabel: "минут на карту",
     image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/files/b6a86d51-0829-495c-9e80-db2777235367.jpg",
     disclaimer: "Оценивайте свои финансовые возможности и риски. 18+",
-    link: "https://r.dalead.pro/go12624",
+    link: "https://rko-group.ru/s/lMYuiGnO",
   },
   {
     id: 11,
