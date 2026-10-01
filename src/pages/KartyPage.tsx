@@ -16,7 +16,7 @@ const creditCards = [
       "Беспроцентный период: до 55 дней",
       "120 дней без процентов предоставляется только при переводе баланса с другой кредитки, то есть, когда клиент переходит в Банк из другого Банка",
     ],
-    image: "https://cdn.poehali.dev/files/433a81e2-1ea6-4fa6-be3c-91681c64e8cc.jpg",
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/files/e7b03077-70cd-4909-81ec-2f202702d9ef.jpg",
     link: "https://pxl.leads.su/click/9adaf1ee2fd5bddb8f5f33beb8c8c1d8?erid=2W5zFGt54nu",
   },
   {
