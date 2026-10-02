@@ -155,7 +155,7 @@ const zaimery = [
     rateLabel: "первые 10 дней",
     image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/files/a04ffbab-ba41-4219-a1c5-5e1ff223692d.jpg",
     disclaimer: "ООО МКК Быстроденьги. ПСК 25,550%-25,550%. Ставка 0,07% в день (0% с 1 по 10 день при возврате не позднее 10-го дня). Сумма от 3000 до 30000 руб. Срок от 12 до 30 дней. 18+",
-    link: "https://t.fincpanetwork.ru/click/91093/613/?erid=LjN8JtHPe",
+    link: "https://rko-group.ru/s/R7sKBD17",
   },
   {
     id: 6,
