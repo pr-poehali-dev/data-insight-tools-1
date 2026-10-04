@@ -209,6 +209,21 @@ const offers = [
     image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/files/f6459ad2-f4fd-43b3-88c6-51e7daafc05b.jpg",
     link: "https://rko-group.ru/s/51Lf12W3",
   },
+  {
+    id: 11,
+    bank: "Ак Барс Банк",
+    badge: "Онлайн",
+    badgeColor: "bg-emerald-500/20 text-emerald-400",
+    title: "Ак Барс Банк — РКО",
+    description: "Расчётный счёт для ИП и ООО с открытием онлайн.",
+    features: [
+      "Открытие расчётного счёта для бизнеса онлайн",
+      "Интернет-банк и мобильное приложение",
+      "Подходит для ИП и ООО",
+    ],
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/files/fc961129-fcc2-4952-9375-ad981b148b40.jpg",
+    link: "https://r.dalead.pro/go12456",
+  },
 ]
 
 export default function RkoPage() {
