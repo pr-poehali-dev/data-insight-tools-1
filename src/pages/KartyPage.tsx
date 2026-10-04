@@ -259,6 +259,23 @@ const debitCards = [
     image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/files/81e17e59-08e5-4aaf-8fcf-be895872cdc1.jpg",
     link: "https://t.fincpanetwork.ru/click/91093/397?erid=2VfnxvVWi3a",
   },
+  {
+    id: 16,
+    badge: "До 30% кешбэка",
+    badgeColor: "bg-red-500/20 text-red-400",
+    title: "МТС Банк — Дебетовая карта",
+    description: "",
+    features: [
+      "30% кешбэка за оплату связи МТС",
+      "Выпуск и обслуживание, платежи и переводы 0 ₽",
+      "До 30% кешбэка каждый месяц в любимых категориях",
+      "10% кешбэка за покупки в супермаркетах",
+      "10% кешбэка на всё",
+      "Подписка МТС Premium в подарок до 6 месяцев",
+    ],
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/files/6d50f288-cd95-49b8-bf36-7254b0f89e30.jpg",
+    link: "https://t.fincpanetwork.ru/click/91093/618?erid=2W5zFHxULji",
+  },
 ]
 
 const savingsAccounts = [
