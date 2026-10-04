@@ -225,7 +225,7 @@ const debitCards = [
       "До 14% годовых на накопительный счёт",
     ],
     image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/files/5dfc199e-28d3-44de-9a65-6c27f7c41844.jpg",
-    link: "https://pxl.leads.su/click/424be9ca70a41ef649487d4a84c370f0",
+    link: "https://t.fincpanetwork.ru/click/91093/630?erid=2W5zFGqZFCm",
   },
   {
     id: 13,
