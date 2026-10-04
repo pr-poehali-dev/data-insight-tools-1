@@ -223,6 +223,24 @@ const debitCards = [
     image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/files/56b579a3-bbed-4aee-8069-712ad7cd88bc.jpg",
     link: "https://t.fincpanetwork.ru/click/91093/639?erid=2W5zFFyDoLU",
   },
+  {
+    id: 14,
+    badge: "До 11% годовых",
+    badgeColor: "bg-emerald-500/20 text-emerald-400",
+    title: "Ак Барс Банк — Дебетовая карта",
+    description: "",
+    features: [
+      "Бесплатное обслуживание",
+      "10% кешбэк за оплату ЖКХ",
+      "Выгода 5 ₽ за оплату проезда",
+      "Социальные услуги РТ",
+      "До 11% годовых на остаток",
+      "Повышенная ставка по вкладам и накопительным счетам",
+      "Услуги от партнёров банка со скидкой",
+    ],
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/files/81e17e59-08e5-4aaf-8fcf-be895872cdc1.jpg",
+    link: "https://t.fincpanetwork.ru/click/91093/397?erid=2VfnxvVWi3a",
+  },
 ]
 
 const savingsAccounts = [
