@@ -88,6 +88,24 @@ const creditCards = [
     image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/files/ad00b23a-92e7-4434-b2aa-22c16d47f599.jpg",
     link: "https://r.dalead.pro/go12366",
   },
+  {
+    id: 15,
+    badge: "До 80 дней без %",
+    badgeColor: "bg-sky-500/20 text-sky-400",
+    title: "Ozon Банк — Кредитная карта",
+    description: "",
+    features: [
+      "Бесплатное обслуживание без дополнительных условий",
+      "Льготный период",
+      "И до 80 дней на остальные покупки",
+      "Скидки до 30% на Ozon по зелёной цене",
+      "Кешбэк до 25% рублями или товары за 1 ₽ за покупки по карте вне Ozon",
+      "Доставка пластиковой карты курьером или в ПВЗ Ozon",
+      "Оплата по QR-коду с льготным периодом",
+    ],
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/files/fb17ddd0-1014-410a-897d-d0ea529c06f9.jpg",
+    link: "https://t.fincpanetwork.ru/click/91093/942?erid=2W5zFGedma9",
+  },
 ]
 
 const debitCards = [
