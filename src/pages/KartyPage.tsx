@@ -209,6 +209,20 @@ const debitCards = [
     image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/files/5dfc199e-28d3-44de-9a65-6c27f7c41844.jpg",
     link: "https://pxl.leads.su/click/424be9ca70a41ef649487d4a84c370f0",
   },
+  {
+    id: 13,
+    badge: "25% кэшбэк",
+    badgeColor: "bg-orange-500/20 text-orange-400",
+    title: "ПСБ — Дебетовая карта «Твой кешбэк»",
+    description: "Бесплатная дебетовая карта навсегда и без условий.",
+    features: [
+      "Бесплатная карта навсегда и без условий",
+      "25% приветственный кешбэк на всё первые 3 месяца",
+      "Бесплатная доставка от 1 дня",
+    ],
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/files/56b579a3-bbed-4aee-8069-712ad7cd88bc.jpg",
+    link: "https://t.fincpanetwork.ru/click/91093/639?erid=2W5zFFyDoLU",
+  },
 ]
 
 const savingsAccounts = [
