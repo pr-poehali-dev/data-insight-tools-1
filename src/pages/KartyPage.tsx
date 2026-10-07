@@ -161,7 +161,7 @@ const debitCards = [
       "Круглосуточная поддержка",
     ],
     image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/files/f7799c91-91d2-4c19-bb05-b8cd14f37b82.jpg",
-    link: "https://go.leadgid.ru/aff_c?aff_id=143535&offer_id=6432&p=10705&erid=LjN8KDq59",
+    link: "https://rko-group.ru/s/ONjKMEvW",
   },
   {
     id: 6,
