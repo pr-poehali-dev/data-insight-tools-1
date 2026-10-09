@@ -7,6 +7,24 @@ import { SEO } from "@/components/SEO"
 
 const zaimery = [
   {
+    id: 20,
+    badge: "Первый заём бесплатно",
+    badgeColor: "bg-green-500/20 text-green-400",
+    title: "MoneyMan",
+    subtitle: "от 1 500 до 80 000 руб. · срок от 5 дней до 18 недель",
+    features: [
+      "Сумма займа: от 1 500 до 80 000 руб.",
+      "Первый займ: до 30 000 руб.",
+      "Срок: от 5 дней до 18 недель",
+      "Первый заём бесплатно на срок от 5 до 21 дня",
+    ],
+    rate: "0%",
+    rateLabel: "первый займ",
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/files/b6a86d51-0829-495c-9e80-db2777235367.jpg",
+    disclaimer: "ПСК от 0% до 292% годовых. Оценивайте свои финансовые возможности и риски. 18+",
+    link: "https://advgo.ru/UNB9Re",
+  },
+  {
     id: 12,
     badge: "Высокое одобрение",
     badgeColor: "bg-purple-500/20 text-purple-400",
