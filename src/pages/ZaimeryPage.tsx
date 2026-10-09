@@ -136,7 +136,7 @@ const zaimery = [
     rateLabel: "в день",
     image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/files/27b7a97e-20ae-476c-9528-130b66bb4be4.jpg",
     disclaimer: "ПСК 292% годовых. Ставка в день 0,8%. Сумма от 1000 руб. до 30000 руб. Срок от 5 до 30 дней. Валюта: Рубли. Оценивайте свои финансовые возможности и риски.",
-    link: "https://t.fincpanetwork.ru/click/91093/241/?erid=LjN8K54Q9",
+    link: "",
   },
   {
     id: 5,
@@ -310,11 +310,13 @@ export default function ZaimeryPage() {
                 </div>
 
                 <div className="flex items-center gap-3 mb-4">
-                  <Button asChild className="bg-violet-600 hover:bg-violet-500 text-white font-medium px-6">
-                    <a href={item.link} target="_blank" rel="noopener noreferrer">
-                      Оформить <ArrowUpRight className="h-4 w-4 ml-1" />
-                    </a>
-                  </Button>
+                  {item.link && (
+                    <Button asChild className="bg-violet-600 hover:bg-violet-500 text-white font-medium px-6">
+                      <a href={item.link} target="_blank" rel="noopener noreferrer">
+                        Оформить <ArrowUpRight className="h-4 w-4 ml-1" />
+                      </a>
+                    </Button>
+                  )}
                   <div className="flex items-center gap-1.5 text-xs text-gray-500">
                     <Shield className="h-3.5 w-3.5" />
                     Бесплатно для клиентов
