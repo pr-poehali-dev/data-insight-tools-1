@@ -169,7 +169,7 @@ const zaimery = [
     id: 7,
     badge: "До 30 000 ₽",
     badgeColor: "bg-teal-500/20 text-teal-400",
-    title: "КликМани",
+    title: "OneClickMoney",
     subtitle: "от 500 до 30 000 руб. · срок от 6 до 21 дня",
     features: [
       "Сумма: от 500 до 30 000 руб.",
