@@ -46,7 +46,7 @@ const zaimery = [
     id: 11,
     badge: "Высокое одобрение",
     badgeColor: "bg-sky-500/20 text-sky-400",
-    title: "Займ онлайн на карту",
+    title: "Webbankir",
     subtitle: "Простой и быстрый способ · решение за 1-2 минуты",
     features: [
       "Не выходя из дома, без похода в офис",
@@ -122,7 +122,7 @@ const zaimery = [
     id: 5,
     badge: "Первые 10 дней 0%",
     badgeColor: "bg-violet-500/20 text-violet-400",
-    title: "Первые 10 дней бесплатно",
+    title: "Быстроденьги",
     subtitle: "от 3 000 до 30 000 руб. · срок от 12 до 30 дней",
     features: [
       "Сумма: от 3 000 до 30 000 руб.",
