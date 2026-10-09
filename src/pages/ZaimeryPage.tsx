@@ -7,6 +7,24 @@ import { SEO } from "@/components/SEO"
 
 const zaimery = [
   {
+    id: 21,
+    badge: "До 100 000 ₽",
+    badgeColor: "bg-blue-500/20 text-blue-400",
+    title: "Деньги Сразу",
+    subtitle: "от 1 000 до 100 000 руб. · срок от 16 до 180 дней",
+    features: [
+      "Сумма займа: от 1 000 до 100 000 рублей",
+      "Срок займа: от 16 до 180 дней",
+      "Возможна пролонгация и досрочное погашение",
+      "Процентная ставка: до 0,8% в день",
+    ],
+    rate: "до 0,8%",
+    rateLabel: "в день",
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/files/b6a86d51-0829-495c-9e80-db2777235367.jpg",
+    disclaimer: "Оценивайте свои финансовые возможности и риски. 18+",
+    link: "https://trk.ppdu.ru/click/dH0mWwXZ?erid=2W5zFJxLkuf",
+  },
+  {
     id: 20,
     badge: "Первый заём бесплатно",
     badgeColor: "bg-green-500/20 text-green-400",
