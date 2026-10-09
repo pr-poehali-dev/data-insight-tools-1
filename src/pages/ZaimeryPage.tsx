@@ -174,7 +174,7 @@ const zaimery = [
     rateLabel: "в день",
     image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/files/01e70d35-3542-4c18-9f54-ea6cd3a8e176.jpg",
     disclaimer: "Онлайн микрокредиты от 500 до 30 000 рублей на срок от 6 до 21 дня гражданам РФ. Процентная ставка: 0,8%. Одним из обязательных условий получения займа до зарплаты является наличие постоянного места работы.",
-    link: "https://r.dalead.pro/go12466",
+    link: "https://trk.ppdu.ru/click/i1hQSzCe?erid=0",
   },
   {
     id: 8,
