@@ -7,6 +7,23 @@ import { SEO } from "@/components/SEO"
 
 const zaimery = [
   {
+    id: 22,
+    badge: "До 50 000 ₽",
+    badgeColor: "bg-red-500/20 text-red-400",
+    title: "Альфа Деньги",
+    subtitle: "Кредитный лимит до 50 000 руб. · срок до 30 дней",
+    features: [
+      "Сумма: до 50 000 рублей",
+      "Срок лимита: до 30 дней с автоматическим продлением",
+      "Без поручителей, справок и залога",
+    ],
+    rate: "50 000 ₽",
+    rateLabel: "максимум",
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/files/b6a86d51-0829-495c-9e80-db2777235367.jpg",
+    disclaimer: "Оценивайте свои финансовые возможности и риски. 18+",
+    link: "https://trk.ppdu.ru/click/h7ewbMuf?erid=2SDnjdr3sYP",
+  },
+  {
     id: 21,
     badge: "До 100 000 ₽",
     badgeColor: "bg-blue-500/20 text-blue-400",
