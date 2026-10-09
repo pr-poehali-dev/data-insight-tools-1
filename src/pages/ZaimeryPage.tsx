@@ -103,7 +103,7 @@ const zaimery = [
     id: 3,
     badge: "До 30 000 ₽",
     badgeColor: "bg-yellow-500/20 text-yellow-400",
-    title: "Решение по заявке за 1 минуту",
+    title: "Срочно Деньги",
     subtitle: "от 2 000 до 30 000 руб. · срок от 1 до 30 дней",
     features: [
       "Сумма: от 2 000 до 30 000 руб.",
