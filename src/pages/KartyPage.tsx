@@ -112,6 +112,21 @@ const creditCards = [
 
 const debitCards = [
   {
+    id: 40,
+    badge: "До 13,5% на остаток",
+    badgeColor: "bg-green-500/20 text-green-400",
+    title: "ОТП Банк — Дебетовая карта",
+    description: "Кэшбэк, доход на остаток и бесплатные переводы.",
+    features: [
+      "До 5% кэшбэк на популярные категории для ежедневных трат",
+      "Доход до 13,5% годовых на остаток",
+      "Переводы по СБП до 5 000 000 ₽ в месяц бесплатно",
+      "Бесплатное обслуживание",
+    ],
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/files/c9ce8c3b-e295-4304-bd96-ecc37c881f0a.jpg",
+    link: "https://trk.ppdu.ru/click/Zc3JJtIZ?erid=2SDnjeiRuUn",
+  },
+  {
     id: 3,
     badge: "Кэшбэк до 15%",
     badgeColor: "bg-blue-500/20 text-blue-400",
