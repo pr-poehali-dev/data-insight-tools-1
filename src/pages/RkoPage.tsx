@@ -183,7 +183,7 @@ const offers = [
       "Скидки до 30% с Ozon Картой на Ozon и кэшбэк до 25% на покупки в остальных магазинах",
     ],
     image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/files/7f5e7c02-86d7-4685-b4e5-426fa90ec1f2.jpg",
-    link: "https://t.fincpanetwork.ru/click/91093/417?erid=2W5zFHbppTA",
+    link: "https://rko-group.ru/s/XUXJBbYh",
   },
   {
     id: 10,
