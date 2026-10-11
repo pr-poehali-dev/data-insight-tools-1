@@ -114,6 +114,25 @@ const creditCards = [
 
 const debitCards = [
   {
+    id: 42,
+    badge: "Кешбэк до 25%",
+    badgeColor: "bg-sky-500/20 text-sky-400",
+    title: "Ozon Банк — Дебетовая карта",
+    description: "",
+    features: [
+      "Скидки до 30% на Ozon по зелёной цене",
+      "Кешбэк до 25% рублями или товары за 1 ₽ за покупки по карте вне Ozon",
+      "Бесплатное открытие и обслуживание карты",
+      "Оплата зарубежных сервисов",
+      "Бесплатное оформление пластиковой карты с выбором дизайна",
+      "Удобная доставка курьером или в ПВЗ Ozon",
+      "Переводы без комиссии",
+      "Пополнение и снятие наличных без комиссии в банкоматах Ozon Банка и партнёров",
+    ],
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/files/fb17ddd0-1014-410a-897d-d0ea529c06f9.jpg",
+    link: "https://trk.ppdu.ru/click/pvKRt1Lt?erid=2SDnjcSQqFP",
+  },
+  {
     id: 41,
     badge: "Для молодёжи 14+",
     badgeColor: "bg-red-500/20 text-red-400",
