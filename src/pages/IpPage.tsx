@@ -24,7 +24,7 @@ const offers = [
     ],
     color: "bg-red-600",
     image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/files/f7ab3639-7102-4013-beed-413294c9b02d.jpg",
-    link: "https://go.leadgid.ru/aff_c?aff_id=143535&offer_id=5827&p=10705&erid=2W5zFHq9R76",
+    link: "https://rko-group.ru/s/gals8hzq",
   },
   {
     id: 2,
