@@ -109,6 +109,24 @@ const creditCards = [
     image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/files/fb17ddd0-1014-410a-897d-d0ea529c06f9.jpg",
     link: "https://trk.ppdu.ru/click/byYfxMBs?erid=2SDnjcGXYYi",
   },
+  {
+    id: 17,
+    badge: "До 500 000 ₽",
+    badgeColor: "bg-orange-500/20 text-orange-400",
+    title: "Совкомбанк — Кредитная карта",
+    description: "",
+    features: [
+      "ПСК от 28,380% до 50,757% годовых",
+      "Процентная ставка 49,9% годовых",
+      "Комфортная карта на каждый день",
+      "Длительный льготный период",
+      "Лимит кредитования до 500 000 ₽",
+      "Возможность снимать заёмные средства в любом банкомате БЕЗ комиссии и много другое",
+      "Не платите за оформление кредитки: выпуск и обслуживание бесплатные",
+    ],
+    image: "https://cdn.poehali.dev/projects/7f11e639-bdf9-4f98-a1b1-579e441c19f9/files/ad00b23a-92e7-4434-b2aa-22c16d47f599.jpg",
+    link: "https://trk.ppdu.ru/click/wDK02ylK?erid=2SDnjcQ4WF2&siteId=27757",
+  },
 ]
 
 const debitCards = [
